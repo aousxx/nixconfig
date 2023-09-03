@@ -15,7 +15,7 @@
     xdg-desktop-portal-hyprland
     blueberry
     connman-gtk
-  ];.
+  ];
 
   programs.hyprland.enable = true;
 

@@ -3,8 +3,8 @@
 {modulesPath}:
 {
   # List your module files here
-  noisetorch = import  .noisetorch
-  autojump   = import  .autojump
-  gamemode   = import  .gamemode
-  gamescope  = import  .gamescope
+  noisetorch = import  .noisetorch;
+  autojump   = import  .autojump;
+  gamemode   = import  .gamemode;
+  gamescope  = import  .gamescope;
 }

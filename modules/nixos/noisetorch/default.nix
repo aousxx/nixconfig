@@ -1,41 +1,30 @@
-{ lib, buildGoModule, fetchFromGitHub }:
+{ config, pkgs, lib, ... }:
 
-buildGoModule rec {
-  pname = "NoiseTorch";
-  version = "0.12.2";
+with lib;
 
-  src = fetchFromGitHub {
-    owner = "noisetorch";
-    repo = "NoiseTorch";
-    rev = "v${version}";
-    fetchSubmodules = true;
-    sha256 = "sha256-gOPSMPH99Upi/30OnAdwSb7SaMV0i/uHB051cclfz6A=";
+let cfg = config.programs.noisetorch;
+in
+{
+  options.programs.noisetorch = {
+    enable = mkEnableOption (lib.mdDoc "noisetorch + setcap wrapper");
+
+    package = mkOption {
+      type = types.package;
+      default = pkgs.noisetorch;
+      defaultText = literalExpression "pkgs.noisetorch";
+      description = lib.mdDoc ''
+        The noisetorch package to use.
+      '';
+    };
   };
 
-  vendorHash = null;
-
-  doCheck = false;
-
-  ldflags = [ "-s" "-w" "-X main.version=${version}" "-X main.distribution=nixpkgs" ];
-
-  subPackages = [ "." ];
-
-  preBuild = ''
-    make -C c/ladspa/
-    go generate
-    rm  ./scripts/*
-  '';
-
-  postInstall = ''
-    install -D ./assets/icon/noisetorch.png $out/share/icons/hicolor/256x256/apps/noisetorch.png
-    install -Dm444 ./assets/noisetorch.desktop $out/share/applications/noisetorch.desktop
-  '';
-
-  meta = with lib; {
-    description = "Virtual microphone device with noise supression for PulseAudio";
-    homepage = "https://github.com/noisetorch/NoiseTorch";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
-    maintainers = with maintainers; [ panaeon lom ];
+  config = mkIf cfg.enable {
+    security.wrappers.noisetorch = {
+      owner = "root";
+      group = "root";
+      capabilities = "cap_sys_resource=+ep";
+      source = "${cfg.package}/bin/noisetorch";
+    };
+    environment.systemPackages = [ cfg.package ];
   };
 }

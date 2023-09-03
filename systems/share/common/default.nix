@@ -63,13 +63,13 @@
 
 
     # Bootloader.
-  boot. = {
+  boot = {
     loader.systemd-boot.enable = true;
     loader.efi.canTouchEfiVariables = true;
     supportedFilesystems = [ "ntfs" ];
     kernelModules = [ "v4l2loopback" ];
     extraModulePackages = [ pkgs.linuxPackages.v4l2loopback ];
-  }
+  };
  
 
 
