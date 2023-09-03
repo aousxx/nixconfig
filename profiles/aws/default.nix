@@ -1,6 +1,6 @@
 { inputs, outputs, lib, config, pkgs, ... }@args:
 let
-  user = "ben";
+  user = "aws";
   userPath = "/home/${user}";
   sharePath = nix: "${userPath}/.snow/profiles/share/${nix}";
 in
