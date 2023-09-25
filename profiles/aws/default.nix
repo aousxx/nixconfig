@@ -12,7 +12,7 @@
   home.packages = with pkgs; [
     
    #ttf-icomoon-feather
-    protontricks  winetricks wine-staging android-tools  xorg.xhost xdg-desktop-portal-gtk at-spi2-atk 
+    winetricks wine-staging android-tools  xorg.xhost xdg-desktop-portal-gtk at-spi2-atk 
 
 
     

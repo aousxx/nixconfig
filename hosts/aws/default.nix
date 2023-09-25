@@ -3,6 +3,7 @@
 {
   imports =
     [ 
+      ../../pkgs/dependency-hell.nix
       ./virtualization.nix
       ./hardware.nix
       (modulesPath + "/programs/noisetorch.nix")
@@ -111,11 +112,7 @@
     ];
   };
 
-  environment.systemPackages = with pkgs; [
-    linuxPackages.v4l2loopback
-    libsForQt5.qt5.qtgraphicaleffects
-    libsForQt5.qt5.qtquickcontrols2
-  ];
+ 
  
   system.stateVersion = "23.05"; 
 
