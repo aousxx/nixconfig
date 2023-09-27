@@ -2,6 +2,7 @@
 {
 imports = [
    ./theme
+   ./nvim
 	./zsh
 	./kitty
     ./waybar
