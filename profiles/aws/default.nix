@@ -17,7 +17,7 @@
 
     
     python311  python311Packages.pipx
-    neovim  ventoy-full
+     ventoy-full
     lzip  fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
     
     vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  gamescope
