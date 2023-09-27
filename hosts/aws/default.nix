@@ -51,7 +51,7 @@
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
   security.sudo.enable = true;
-    security.sudo.configFile = '' %wheel ALL=(ALL) ALL '';
+  security.sudo.configFile = '' %wheel ALL=(ALL) ALL '';
   services.zerotierone.enable = true;
   services.zerotierone.joinNetworks = [ "6ab565387a095d4c" ];
   programs.noisetorch.enable =true;
@@ -61,7 +61,6 @@
 
   services.xserver = {
        enable = true;
-      # desktopManager.gnome.enable = true;
         displayManager.sddm = {
                theme = "${import ../../profiles/aws/nixconfigs/theme/sddm-theme.nix {inherit pkgs;}}"; 
                enable = true;
