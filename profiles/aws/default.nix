@@ -2,7 +2,6 @@
 {
   imports = [
   
-  ./nixconfigs
   ./configs
 
   ];
@@ -16,7 +15,7 @@
 
     flavours
     
-    python311  python311Packages.pipx
+    python311 python311Packages.psutil python311Packages.pipx
     ventoy-full
     lzip  fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
     
