@@ -12,9 +12,6 @@
 
     hyprland-contrib.url = "github:hyprwm/contrib";
 
-    nix-colors.url = "github:misterio77/nix-colors";
-
-
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };

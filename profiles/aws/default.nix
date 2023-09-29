@@ -1,11 +1,9 @@
 { inputs, outputs, lib, config, pkgs, ... }:
 {
   imports = [
-  ./colors.nix
+  
   ./nixconfigs
   ./configs
-
-  inputs.nix-colors.homeManagerModules.default
 
   ];
 
@@ -16,10 +14,10 @@
    #ttf-icomoon-feather
     winetricks wine-staging android-tools  xorg.xhost xdg-desktop-portal-gtk at-spi2-atk 
 
-
+    flavours
     
     python311  python311Packages.pipx
-     ventoy-full
+    ventoy-full
     lzip  fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
     
     vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  gamescope
