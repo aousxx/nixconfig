@@ -9,6 +9,8 @@
 
   ];
 
+    services.easyeffects.enable = true;
+
   home.packages = with pkgs; [
     
    #ttf-icomoon-feather

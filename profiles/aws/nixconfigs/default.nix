@@ -3,9 +3,6 @@
 imports = [
    ./theme
    ./nvim
-	./zsh
-	./kitty
-    ./waybar
-	./wofi
+   ./zsh
  ];
 }

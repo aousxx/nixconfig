@@ -29,6 +29,7 @@
   i18n.defaultLocale = "en_US.UTF-8";
  
   sound.enable = true;
+  programs.dconf.enable = true;
   services.pipewire = {
     enable = true;
     audio.enable = true;

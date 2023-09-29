@@ -7,9 +7,12 @@
     link = config.lib.file.mkOutOfStoreSymlink;
  in
 {
-  home.file.".config".source = link ./.config;
 
-  
+  home.file.".config/hypr".source = link ./.config/hypr;
+  home.file.".config/MangoHud".source = link ./.config/MangoHud;
+  home.file.".config/kitty".source = link ./.config/kitty;
+  home.file.".config/waybar".source = link ./.config/waybar;
+  home.file.".config/wofi".source = link ./.config/wofi;
   #xdg.configFile = {
   #    MangoHud.source = ./MangoHud;
   #    hypr.source = ./hypr;
