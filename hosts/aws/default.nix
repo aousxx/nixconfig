@@ -63,7 +63,7 @@
   services.xserver = {
        enable = true;
         displayManager.sddm = {
-               theme = "${import ../../profiles/aws/nixconfigs/theme/sddm-theme.nix {inherit pkgs;}}"; 
+               theme = "${import ../../profiles/aws/configs/nixconfigs/theme/sddm-theme.nix {inherit pkgs;}}"; 
                enable = true;
                };
 	}; 
