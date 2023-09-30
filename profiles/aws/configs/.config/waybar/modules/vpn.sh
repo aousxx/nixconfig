@@ -1,1 +1,4 @@
-/nix/store/21aaqgrgw9fw8wz36n211nb7gc7k1zbr-home-manager-files/.config/waybar/modules/vpn.sh
+#!/bin/bash
+ip route | grep -q 'proton0' \
+&& echo '{"text":"Connected","class":"connected","percentage":100}' \
+|| echo '{"text":"Disconnected","class":"disconnected","percentage":0}'

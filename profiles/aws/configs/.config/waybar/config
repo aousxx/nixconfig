@@ -1,1 +1,159 @@
-/nix/store/21aaqgrgw9fw8wz36n211nb7gc7k1zbr-home-manager-files/.config/waybar/config
+[
+  {
+    "backlight": {
+      "format": "{icon} {percent}%",
+      "format-icons": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "clock": {
+      "format": " {:%H:%M}",
+      "format-alt": " {:%d/%m}",
+      "tooltip": "true",
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "cpu": {
+      "format": "󰻠 {usage}%",
+      "format-alt": "󰻠 {avg_frequency} GHz",
+      "interval": 5
+    },
+    "custom/hyprpicker": {
+      "format": "󰈋",
+      "on-click": "hyprpicker -a -f hex",
+      "on-click-right": "hyprpicker -a -f rgb"
+    },
+    "custom/launcher": {
+      "format": "󰈸",
+      "on-click": "sh $HOME/.config/rofi/launcher.sh",
+      "on-click-right": "sh $HOME/.config/rofi/run.sh"
+    },
+    "custom/playerctl": {
+      "exec": "playerctl -a metadata --format '{\"text\": \"{{artist}} - {{markup_escape(title)}}\" \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+      "format": "{icon}",
+      "format-icons": {
+        "Paused": "<span foreground='#928374'>󰒮 󰏥 󰒭</span>",
+        "Playing": "<span foreground='#E5B9C6'>󰒮 󰐌 󰒭</span>"
+      },
+      "max-length": 64,
+      "on-click": "playerctl previous",
+      "on-click-middle": "playerctl play-pause",
+      "on-click-right": "playerctl next",
+      "return-type": "json"
+    },
+    "custom/playerlabel": {
+      "exec": "playerctl -a metadata --format '{\"text\": \"{{artist}} - {{markup_escape(title)}}\" \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+      "format": "<span>{}</span>",
+      "format-icons": {
+        "Paused": "<span foreground='#928374'>󰒮 󰏥 󰒭</span>",
+        "Playing": "<span foreground='#E5B9C6'>󰒮 󰐌 󰒭</span>"
+      },
+      "max-length": 48,
+      "on-click": "playerctl previous",
+      "on-click-middle": "playerctl play-pause",
+      "on-click-right": "playerctl next",
+      "return-type": "json"
+    },
+    "custom/randwall": {
+      "format": "󰏘",
+      "on-click": "sh $HOME/.config/hypr/randwall.sh",
+      "on-click-right": "sh $HOME/.config/hypr/wall.sh"
+    },
+    "custom/wf-recorder": {
+      "exec": "echo ''",
+      "exec-if": "pgrep 'wf-recorder'",
+      "format": "{}",
+      "interval": "once",
+      "on-click": "exec ./scripts/wlrecord.sh",
+      "signal": 8,
+      "tooltip": "false"
+    },
+    "disk": {
+      "format": "󰋊 {}%",
+      "format-alt": "󰋊 {used}/{total} GiB",
+      "interval": 5,
+      "path": "/mnt/Datos"
+    },
+    "height": 16,
+    "hyprland/workspaces": {
+      "active-only": false,
+      "all-outputs": true,
+      "disable-scroll": false,
+      "format": "{icon}",
+      "format-icons": {
+        "active": "",
+        "default": "󰧞",
+        "sort-by-number": true,
+        "urgent": ""
+      },
+      "on-click": "activate",
+      "on-scroll-down": "hyprctl dispatch workspace +1",
+      "on-scroll-up": "hyprctl dispatch workspace -1"
+    },
+    "layer": "top",
+    "margin-bottom": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "margin-top": 0,
+    "memory": {
+      "format": "󰍛 {}%",
+      "format-alt": "󰍛 {used}/{total} GiB",
+      "interval": 5
+    },
+    "modules-center": [
+      "cpu",
+      "memory",
+      "disk"
+    ],
+    "modules-left": [
+      "custom/launcher",
+      "hyprland/workspaces",
+      "custom/playerctl",
+      "custom/playerlabel"
+    ],
+    "modules-right": [
+      "tray",
+      "custom/randwall",
+      "network",
+      "pulseaudio",
+      "clock"
+    ],
+    "network": {
+      "format-alt": " {ifname}: {ipaddr}/{cidr}",
+      "format-disconnected": "󰤭",
+      "format-ethernet": " {ifname}: Aesthetic",
+      "format-linked": " {ifname} (No IP)",
+      "format-wifi": "󰤨",
+      "on-click-right": "nm-connection-editor",
+      "tooltip-format": "{essid}"
+    },
+    "position": "top",
+    "pulseaudio": {
+      "format": "{icon} {volume}%",
+      "format-icons": {
+        "default": [
+          "󰕿",
+          "󰖀",
+          "󰕾"
+        ]
+      },
+      "format-muted": "󰝟",
+      "on-click": "sh ~/.scripts/volume mute",
+      "on-click-right": "pavucontrol",
+      "on-scroll-down": "sh ~/.scripts/volume down",
+      "on-scroll-up": "sh ~/.scripts/volume up",
+      "scroll-step": 5
+    },
+    "tray": {
+      "icon-size": 16,
+      "spacing": 5
+    }
+  }
+]

@@ -10,21 +10,19 @@
 
 
   imports = [
-   ./nixconfig/theme
-   ./nixconfig/nvim
-   ./nixconfig/zsh
+   ./nixconfigs/theme
+   ./nixconfigs/nvim
+   ./nixconfigs/zsh
  ];
 
 
-  home.file.".config/hypr".source = link ./.config/hypr;
-  home.file.".config/MangoHud".source = link ./.config/MangoHud;
-  home.file.".config/kitty".source = link ./.config/kitty;
-  home.file.".config/waybar".source = link ./.config/waybar;
-  home.file.".config/wofi".source = link ./.config/wofi;
-  home.file.".config/waydisplay".source = link ./.config/waydisplay;
 
-  #xdg.configFile = {
-  #    MangoHud.source = ./MangoHud;
-  #    hypr.source = ./hypr;
-  #};
+  xdg.configFile = {
+    hypr.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/hypr";
+    MangoHud.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/MangoHud";
+    kitty.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/kitty";
+    waybar.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/waybar";
+    wofi.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/wofi";
+    waydisplay.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/waydisplay";
+  };
 }

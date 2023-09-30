@@ -13,15 +13,17 @@
    #ttf-icomoon-feather
     winetricks wine-staging android-tools  xorg.xhost xdg-desktop-portal-gtk at-spi2-atk 
 
-    flavours
+    wpgtk flavours
     
     python311 python311Packages.psutil python311Packages.pipx
     ventoy-full
-    lzip  fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
+    kitty lzip  fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
     
     vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  gamescope
+
+    kitty 
     
-    ffmpeg  vlc  mpv  syncplay
+    jellyfin-ffmpeg  vlc  mpv  syncplay
     
     (wrapOBS { plugins = with obs-studio-plugins; [ obs-backgroundremoval obs-vaapi wlrobs obs-gstreamer obs-vkcapture ]; })
     telegram-desktop  signal-desktop 

@@ -1,1 +1,13 @@
-/nix/store/21aaqgrgw9fw8wz36n211nb7gc7k1zbr-home-manager-files/.config/waybar/scripts/playerctl/playerctl.sh
+#!/bin/bash
+
+playerctl_status=$(playerctl status 2>/dev/null)
+
+if [[ $playerctl_status == "Playing" ]]; then
+    title=$(playerctl metadata title 2>/dev/null)
+    echo '{"text":"󰎈 󰏤","class":"playing","title":"$title"}'
+elif [[ $playerctl_status == "Paused" ]]; then
+    title=$(playerctl metadata title 2>/dev/null)
+    echo '{"text":"󰎈 󰐊","class":"paused","title":"$title"}'
+else
+    echo '{"text":""}'
+fi
