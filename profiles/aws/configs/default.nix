@@ -24,5 +24,9 @@
     waybar.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/waybar";
     wofi.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/wofi";
     waydisplay.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/waydisplay";
+    beautifuldiscord.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/beautifuldiscord";
+    flavours.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/flavours";
+    "discord/settings.json".source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/discord/settings.json";
+    "wpg/wpg.conf".source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/wpg/wpg.conf";
   };
 }

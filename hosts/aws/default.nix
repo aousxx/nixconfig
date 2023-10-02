@@ -12,11 +12,11 @@
   environment.binsh = "${pkgs.dash}/bin/dash";
 
        # Allow unfree packages
-  nixpkgs = {
-  overlays = [(final: prev: { stable = import inputs.nixpkgs-stable { system = "x86_64-linux"; config.allowUnfree = true; };}) ];
-  config.allowUnfree = true;
-  config.allowBroken = true;
+  nixpkgs.config = {
+  allowUnfree = true;
+  allowBroken = true;
   };
+  nixpkgs.overlays =[ (import ../../pkgs) ];
   services.flatpak.enable = true;
   xdg.portal = {
      enable = true;
@@ -98,13 +98,10 @@
 
 
   services.printing.enable = true;
-  programs.hyprland = {
-      enable = true;
-      package = inputs.hyprland.packages.${pkgs.system}.hyprland;
-  };
+  programs.hyprland.enable = true;
 
   programs.steam = {
-  package = pkgs.stable.steam;
+  package = pkgs.steam;
   enable = true;
   remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
   dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
@@ -117,6 +114,7 @@
     description = "aws abdulrahman";
     extraGroups = [ "wheel" "libvirtd" ];
     packages = with pkgs; [
+      wpgtk
     ];
   };
 

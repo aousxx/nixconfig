@@ -63,8 +63,9 @@
     },
     "custom/randwall": {
       "format": "󰏘",
-      "on-click": "sh $HOME/.config/hypr/randwall.sh",
-      "on-click-right": "sh $HOME/.config/hypr/wall.sh"
+      "on-click": "sh $HOME/.config/hypr/scripts/wall.sh --light",
+      "on-click-middle": "hyprctl dispatch workspace 199; sh $HOME/.config/hypr/scripts/wall.sh --light"
+      "on-click-right": "sh $HOME/.config/hypr/scripts/wall.sh"
     },
     "custom/wf-recorder": {
       "exec": "echo ''",

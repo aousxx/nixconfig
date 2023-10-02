@@ -22,7 +22,7 @@ class DiscordProcess:
 
     def launch(self):
         with open(os.devnull, 'w') as f:
-            subprocess.Popen([os.path.join(self.path, self.exe)], stdout=f, stderr=subprocess.STDOUT)
+            subprocess.Popen("discord" ,shell=True, stdout=f, stderr=subprocess.STDOUT)
 
     @property
     def resources_path(self):
@@ -168,7 +168,7 @@ def discord_process():
         except (psutil.Error, OSError):
             pass
         else:
-            if exe.startswith('Discord') and not exe.endswith('Helper'):
+            if exe.startswith('.Discord') and not exe.endswith('Helper'):
                 entry = executables.get(exe)
 
                 if entry is None:

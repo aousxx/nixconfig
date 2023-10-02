@@ -1,0 +1,26 @@
+# Commands go through bash
+shell = "bash -c '{}'"
+
+# Sway supports the default '#' comments, so it can be ommited
+# 'rewrite' is also ommited, as it defaults to false
+#[[items]]
+#file = "~/.config/sway/config"
+#template = "sway"
+#subtemplate = "colors"
+#hook = "swaymsg reload"
+## Swaymsg reload temporarily freezes input, so it's marked as not light
+#light = false
+
+# This one uses waybar 'default' subtemplate, so it can be ommited
+#[[items]]
+#file = "~/.config/waybar/colors.css"
+#template = "waybar"
+## Waybar uses a separate color file, so we can safely rewrite the whole file
+#rewrite = true
+
+[[items]]
+file = "~/.config/beautifuldiscord/style.css"
+template = "styles"
+subtemplate = "css-variables"
+start= "/* Start flavours */"
+end = "/* End flavours */"

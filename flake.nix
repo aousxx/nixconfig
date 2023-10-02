@@ -2,21 +2,15 @@
   description = "A NixOS flake for Aws.";
 
   inputs = {
-    hyprland.url = "github:hyprwm/Hyprland"; 
-
     nixos-hardware.url = "github:nixos/nixos-hardware";
-
     nixpkgs.url = "github:/nixos/nixpkgs/nixos-unstable";
-
-    nixpkgs-stable.url = "github:nixos/nixpkgs/release-23.05";
-
+   # nixpkgs-stable.url = "github:nixos/nixpkgs/release-23.05";
     hyprland-contrib.url = "github:hyprwm/contrib";
-
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = { self , nixpkgs , nixpkgs-stable ,home-manager, nixos-hardware, ... }@inputs:
+  outputs = { self , nixpkgs ,home-manager, nixos-hardware, ... }@inputs:
   {
     overlays = import ./overlays { inherit inputs; };
     nixosModules = import ./modules/nixos;

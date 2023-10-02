@@ -1,4 +1,9 @@
-{ pkgs }:
+final: prev:
+
 {
-  ttf-icomoon-feather = pkgs.callPackage ../pkgs/ttf-icomoon-feather.nix { };
+  xwaylandvideobridge = prev.libsForQt5.callPackage ./xwaylandvideobridge.nix {};
+  xwaylandvideobridgehypr = final.xwaylandvideobridge.overrideAttrs (o: {
+      patches = (o.patches or [ ]) ++ [
+        ./xwaylandvideobridge.patch
+      ]; });
 }

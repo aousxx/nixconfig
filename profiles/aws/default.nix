@@ -6,17 +6,18 @@
 
   ];
 
-    services.easyeffects.enable = true;
+  services.easyeffects.enable = true;
 
   home.packages = with pkgs; [
     
    #ttf-icomoon-feather
+    xwaylandvideobridgehypr
     winetricks wine-staging android-tools  xorg.xhost xdg-desktop-portal-gtk at-spi2-atk 
 
-    wpgtk flavours
-    
-    python311 python311Packages.psutil python311Packages.pipx
+    glib flavours
+    #wpgtk 
     ventoy-full
+     (pkgs.python3.withPackages (ps: with ps; [psutil pipx])) 
     kitty lzip  fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
     
     vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  gamescope
@@ -26,7 +27,7 @@
     jellyfin-ffmpeg  vlc  mpv  syncplay
     
     (wrapOBS { plugins = with obs-studio-plugins; [ obs-backgroundremoval obs-vaapi wlrobs obs-gstreamer obs-vkcapture ]; })
-    telegram-desktop  signal-desktop 
+    discord telegram-desktop  signal-desktop 
     spotify  microsoft-edge  gimp
     
     
