@@ -8,32 +8,37 @@
 
   services.easyeffects.enable = true;
 
+
   home.packages = with pkgs; [
     
    #ttf-icomoon-feather
     xwaylandvideobridgehypr
-    winetricks wine-staging android-tools  xorg.xhost xdg-desktop-portal-gtk at-spi2-atk 
-
-    glib flavours
+    wget winetricks wine-staging android-tools  xorg.xhost xdg-desktop-portal-gtk at-spi2-atk 
+     
+    glib flavours spicetify-cli
     #wpgtk 
     ventoy-full
      (pkgs.python3.withPackages (ps: with ps; [psutil pipx])) 
-    kitty lzip  fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
+    imagemagick kitty lzip zip unzip fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
     
     vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  gamescope
 
     kitty 
+
+    kdenlive
     
-    jellyfin-ffmpeg  vlc  mpv  syncplay
+    mimic jellyfin-ffmpeg feh vlc  mpv  syncplay
     
     (wrapOBS { plugins = with obs-studio-plugins; [ obs-backgroundremoval obs-vaapi wlrobs obs-gstreamer obs-vkcapture ]; })
     discord telegram-desktop  signal-desktop 
-    spotify  microsoft-edge  gimp
-    
+   yt-dlp spotify  thorium microsoft-edge  gimp
+    heroic
     
     #sound :
-    pavucontrol  qjackctl  wireplumber  helvum
+    pavucontrol  qpwgraph wireplumber  helvum
     
+
+
     #hypr assets : 
     swayidle way-displays  polkit_gnome  cliphist wl-clipboard wtype libsForQt5.dolphin  inputs.hyprland-contrib.packages.${pkgs.system}.grimblast
     libsForQt5.ark waybar  gnome.gnome-software bemenu  wpa_supplicant    wlr-randr libsForQt5.qt5.qtwayland  mako  swww  connman-gtk  blueberry gparted   
@@ -45,7 +50,8 @@
     
     #fonts
 
-    jetbrains-mono  font-awesome  font-awesome_5  font-awesome_4  nerdfonts  terminus-nerdfont  inconsolata-nerdfont  nerdfix  fira-code  fira-code-symbols
+    jetbrains-mono  font-awesome  font-awesome_5  font-awesome_4  #nerdfonts
+    terminus-nerdfont  inconsolata-nerdfont  nerdfix  fira-code  fira-code-symbols
   ];
 
   

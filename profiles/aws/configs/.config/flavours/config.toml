@@ -17,6 +17,19 @@ shell = "bash -c '{}'"
 #template = "waybar"
 ## Waybar uses a separate color file, so we can safely rewrite the whole file
 #rewrite = true
+[[items]]
+file = "~/.config/flavours/item-files/telegram/colors.tdesktop-theme"
+template = "telegram"
+hook = ". ~/.config/flavours/item-files/telegram/telegram-hook.sh"
+light = true
+rewrite = true
+
+[[items]]
+file = "~/.config/spicetify/Themes/Dribbblish/color.ini"
+template = "spotify"
+hook = "spicetify config Dribbblish"
+light = true
+rewrite = true
 
 [[items]]
 file = "~/.config/beautifuldiscord/style.css"

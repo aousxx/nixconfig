@@ -64,7 +64,7 @@
     "custom/randwall": {
       "format": "󰏘",
       "on-click": "sh $HOME/.config/hypr/scripts/wall.sh --light",
-      "on-click-middle": "hyprctl dispatch workspace 199; sh $HOME/.config/hypr/scripts/wall.sh --light"
+      "on-click-middle": "hyprctl dispatch workspace 199; sh $HOME/.config/hypr/scripts/wall.sh --light",
       "on-click-right": "sh $HOME/.config/hypr/scripts/wall.sh"
     },
     "custom/wf-recorder": {
@@ -135,7 +135,7 @@
       "on-click-right": "nm-connection-editor",
       "tooltip-format": "{essid}"
     },
-    "position": "top",
+    "position": "bottom",
     "pulseaudio": {
       "format": "{icon} {volume}%",
       "format-icons": {

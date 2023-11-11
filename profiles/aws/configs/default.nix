@@ -17,6 +17,11 @@
 
 
 
+  #Tela.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/icons .local/share/icons"
+  xdg.dataFile = {
+  icons.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/icons";
+  };
+
   xdg.configFile = {
     hypr.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/hypr";
     MangoHud.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/MangoHud";
@@ -26,6 +31,7 @@
     waydisplay.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/waydisplay";
     beautifuldiscord.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/beautifuldiscord";
     flavours.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/flavours";
+    mpv.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/mpv";
     "discord/settings.json".source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/discord/settings.json";
     "wpg/wpg.conf".source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/wpg/wpg.conf";
   };

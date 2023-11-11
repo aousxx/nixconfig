@@ -5,12 +5,12 @@
     font-family: Iosevka, FontAwesome, Noto Sans CJK;
     font-size: 14px;
     font-style: normal;
-    min-height: 0;
+    min-height: 25px;
     }
 
 window#waybar {
     background: rgba(30, 30, 46, 0.5);
-    border-bottom: 1px solid #282828;
+    border-bottom: 0px solid #282828;
     color: #f4d9e1
 }
 
@@ -26,6 +26,7 @@ window#waybar {
 #workspaces button {
     padding: 0px 5px;
     border-radius: 16px;
+	background-color: transparent;
     color: #928374;
 }
 
@@ -36,7 +37,7 @@ window#waybar {
 }
 
 #workspaces button:hover {
-	background-color: #E6B9C6;
+    background-color: #E6B9C6;
 	color: black;
 	border-radius: 16px;
 }

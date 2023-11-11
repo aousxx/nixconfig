@@ -13,6 +13,10 @@
 
        # Allow unfree packages
   nixpkgs.config = {
+  
+  permittedInsecurePackages = [
+                "electron-24.8.6"
+  ];
   allowUnfree = true;
   allowBroken = true;
   };
@@ -28,6 +32,9 @@
  # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
  
+  virtualisation.waydroid.enable = true;
+
+
   sound.enable = true;
   programs.dconf.enable = true;
   services.pipewire = {
@@ -38,6 +45,23 @@
     pulse.enable = true;
     jack.enable = true;
   }; 
+
+
+    programs.nix-ld.enable = true;
+    programs.nix-ld.libraries = with pkgs; [
+    stdenv.cc.cc
+    zlib
+    fuse3
+    icu
+    zlib
+    nss
+    openssl
+    curl
+    expat
+    # ...
+  ];
+
+
   networking.hostName = "aws"; # Define your hostname.
 
    networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
