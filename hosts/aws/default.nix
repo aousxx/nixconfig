@@ -136,7 +136,7 @@
     shell = pkgs.zsh;
     isNormalUser = true;
     description = "aws abdulrahman";
-    extraGroups = [ "wheel" "libvirtd" ];
+    extraGroups = [ "docker" "wheel" "libvirtd" ];
     packages = with pkgs; [
       wpgtk
     ];

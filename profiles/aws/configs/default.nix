@@ -11,7 +11,7 @@
 
   imports = [
    ./nixconfigs/theme
-   ./nixconfigs/nvim
+   #./nixconfigs/nvim
    ./nixconfigs/zsh
  ];
 
@@ -25,6 +25,7 @@
   xdg.configFile = {
     hypr.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/hypr";
     MangoHud.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/MangoHud";
+    nvim.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/nvim";
     kitty.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/kitty";
     waybar.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/waybar";
     wofi.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/wofi";
