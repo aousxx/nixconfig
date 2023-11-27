@@ -1,7 +1,6 @@
 { inputs, outputs, lib, config, pkgs, ... }:
 {
   imports = [
-  
   ./configs
 
   ];
@@ -10,6 +9,8 @@
 
 
   home.packages = with pkgs; [
+   
+    ollama
     
    #ttf-icomoon-feather
     xwaylandvideobridgehypr
@@ -20,7 +21,7 @@
     ventoy-full
      (pkgs.python3.withPackages (ps: with ps; [psutil pipx])) 
     imagemagick kitty lzip zip unzip fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
-    
+    neovim
     vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  gamescope
 
     kitty 
@@ -31,7 +32,7 @@
     
     (wrapOBS { plugins = with obs-studio-plugins; [ obs-backgroundremoval obs-vaapi wlrobs obs-gstreamer obs-vkcapture ]; })
     discord telegram-desktop  signal-desktop 
-   yt-dlp spotify  thorium microsoft-edge  gimp
+    go gcc yt-dlp spotify  thorium microsoft-edge  gimp
     heroic
     
     #sound :
@@ -52,6 +53,9 @@
 
     jetbrains-mono  font-awesome  font-awesome_5  font-awesome_4  #nerdfonts
     terminus-nerdfont  inconsolata-nerdfont  nerdfix  fira-code  fira-code-symbols
+    
+    #LSPs
+    gopls nil nodePackages."@tailwindcss/language-server" 
   ];
 
   

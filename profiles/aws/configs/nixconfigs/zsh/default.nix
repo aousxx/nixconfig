@@ -6,6 +6,15 @@
   enable = true ;
   dotDir = ".config/zsh";
   syntaxHighlighting.enable = true;
+
+
+
+  shellAliases = {
+     pkgs="nvim ~/.dotfiles/profiles/aws/default.nix";
+     lsp="nvim +56 ~/.dotfiles/profiles/aws/default.nix";
+     ali="nvim ~/.dotfiles/profiles/aws/configs/nixconfigs/zsh/default.nix";
+     nlsp="nvim +556 ~/.dotfiles/profiles/aws/configs/.config/nvim/init.lua";
+  };
   plugins = [
     {
       # will source zsh-autosuggestions.plugin.zsh

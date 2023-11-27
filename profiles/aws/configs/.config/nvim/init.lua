@@ -72,6 +72,8 @@ require('lazy').setup({
   -- Git related plugins
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
+  'kana/vim-niceblock',
+  'VonHeikemen/lsp-zero.nvim',
 
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
@@ -517,13 +519,6 @@ local servers = {
   -- rust_analyzer = {},
   -- tsserver = {},
   -- html = { filetypes = { 'html', 'twig', 'hbs'} },
-
-  lua_ls = {
-    Lua = {
-      workspace = { checkThirdParty = false },
-      telemetry = { enable = false },
-    },
-  },
 }
 
 -- Setup neovim lua configuration
@@ -550,6 +545,15 @@ mason_lspconfig.setup_handlers {
     }
   end,
 }
+local lsp_zero = require('lsp-zero')
+
+lsp_zero.on_attach(function(client, bufnr)
+  -- see :help lsp-zero-keybindings
+  -- to learn the available actions
+  lsp_zero.default_keymaps({buffer = bufnr})
+end)
+
+lsp_zero.setup_servers({'gopls','tailwindcss'})
 
 -- [[ Configure nvim-cmp ]]
 -- See `:help cmp`

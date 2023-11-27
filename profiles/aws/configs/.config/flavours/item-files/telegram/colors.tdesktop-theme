@@ -8,25 +8,25 @@
 
 // Eighties base color
 
-cBlack: #2f2324;
-cBlackA10: #2f23241A;
-c01: #52494b;
-c02: #766e72;
-c03: #9a9399;
-c04: #beb8c0;
-c05: #e2dee7;
-c06: #e6e2ea;
-cWhite: #eae7ee;
-Red: #75c7f6;
-cOrange: #8a99bc;
-cYellow: #62a8df;
-cYellowLight: #62a8df;
-cGreen: #a597a7;
-cCyan: #b0cfee;
-cCyanLight: #b0cfee;
-cBlue: #bdd6f0;
-cPurple: #c7e5fa;
-cBrown: #a99096;
+cBlack: #16292f;
+cBlackA10: #16292f1A;
+c01: #3d4d4e;
+c02: #64706e;
+c03: #8a948e;
+c04: #b1b8ad;
+c05: #d8dbcd;
+c06: #dee1d4;
+cWhite: #e4e6dc;
+Red: #80c844;
+cOrange: #4577ce;
+cYellow: #b66640;
+cYellowLight: #b66640;
+cGreen: #897559;
+cCyan: #458377;
+cCyanLight: #458377;
+cBlue: #437abc;
+cPurple: #717a7e;
+cBrown: #867569;
 
 keyColor: cCyan;
 keyColorLight: cCyanLight;
