@@ -19,7 +19,7 @@
     glib flavours spicetify-cli
     #wpgtk 
     ventoy-full
-     (pkgs.python3.withPackages (ps: with ps; [psutil pipx])) 
+    nodejs_20 (pkgs.python3.withPackages (ps: with ps; [psutil pipx])) 
     imagemagick kitty lzip zip unzip fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
     neovim
     vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  gamescope

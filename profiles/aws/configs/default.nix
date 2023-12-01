@@ -13,13 +13,13 @@
    ./nixconfigs/theme
    #./nixconfigs/nvim
    ./nixconfigs/zsh
+   ./nixconfigs/tmux
  ];
 
 
 
   #Tela.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/icons .local/share/icons"
   xdg.dataFile = {
-  icons.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/icons";
   };
 
   xdg.configFile = {
