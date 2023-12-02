@@ -4,7 +4,6 @@
   ./configs
 
   ];
-
   services.easyeffects.enable = true;
 
 
