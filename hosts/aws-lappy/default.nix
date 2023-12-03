@@ -41,14 +41,6 @@
     pulse.enable = true;
     jack.enable = true;
   }; 
-  	  nixpkgs.overlays = [
-    (
-      final: prev:
-        {
-          dwl = prev.dwl.override { conf = ./dwl-config.h; };
-        }
-    )
-  ];
   
     services.xserver.desktopManager.gnome.enable = true;
 
@@ -60,7 +52,8 @@
     fuse3
     icu
     zlib
-    dwl
+    (dwl.override { conf = ./dwl-config.h; })
+
     nss
     openssl
     curl

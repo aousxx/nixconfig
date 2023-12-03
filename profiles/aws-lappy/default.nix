@@ -23,7 +23,7 @@
     feh  mpv  syncplay
     
     discord telegram-desktop  signal-desktop 
-    yt-dlp spotify thorium
+    yt-dlp spotify thorium-SSE3
     
     #sound :
     pavucontrol
