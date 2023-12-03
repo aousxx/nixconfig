@@ -10,11 +10,12 @@
 
   environment.binsh = "${pkgs.dash}/bin/dash";
   environment.systemPackages = [
-    pkgs.hikari
+  pkgs.river
     ];
        # Allow unfree packages
   nixpkgs.config = {
-  
+  programs.river = {
+  enable= true;}; 
   permittedInsecurePackages = [
                 "electron-24.8.6"
   ];
