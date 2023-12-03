@@ -19,7 +19,11 @@
   allowUnfree = true;
   allowBroken = true;
   };
-  nixpkgs.overlays =[ (import ../../pkgs) ];
+  nixpkgs.overlays =[ 
+    (import ../../pkgs)
+
+
+  ];
   services.flatpak.enable = true;
   xdg.portal = {
      enable = true;

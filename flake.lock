@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "dwl-source": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700897834,
+        "narHash": "sha256-gFqP3DSDDaABDaB07Xj5lwjPpFuJdeypz1eYs/pKfGM=",
+        "owner": "djpohly",
+        "repo": "dwl",
+        "rev": "58d33b79f90f7060d6d338d2abf345f16b88dd47",
+        "type": "github"
+      },
+      "original": {
+        "owner": "djpohly",
+        "repo": "dwl",
+        "type": "github"
+      }
+    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -150,12 +166,14 @@
     },
     "root": {
       "inputs": {
+        "dwl-source": "dwl-source",
         "home-manager": "home-manager",
         "hyprland": "hyprland",
         "hyprland-contrib": "hyprland-contrib",
         "nixos-hardware": "nixos-hardware",
         "nixpkgs": "nixpkgs_3",
-        "stable": "stable"
+        "stable": "stable",
+        "yambar-source": "yambar-source"
       }
     },
     "stable": {
@@ -235,6 +253,22 @@
         "owner": "hyprwm",
         "repo": "xdg-desktop-portal-hyprland",
         "type": "github"
+      }
+    },
+    "yambar-source": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697207642,
+        "narHash": "sha256-SqhNHajetARnQZo0tw4vui8yDQHpbzhgbFyUcnX7RBA=",
+        "ref": "refs/heads/master",
+        "rev": "89e74139f59ce789a3c3686da5eba3e6a26f1c73",
+        "revCount": 1522,
+        "type": "git",
+        "url": "https://codeberg.org/dnkl/yambar"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://codeberg.org/dnkl/yambar"
       }
     }
   },

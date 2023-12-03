@@ -44,6 +44,7 @@ aws-lappy = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         specialArgs = { inherit inputs; }; # this is the important part
         modules = [ 
+                    ./pkgs/dwl.nix
                     ./hosts/aws-lappy 
                     home-manager.nixosModules.home-manager
                        {
