@@ -4,22 +4,14 @@
   inputs = {
     nixos-hardware.url = "github:nixos/nixos-hardware";
     nixpkgs.url = "github:/nixos/nixpkgs/nixos-unstable";
-    stable.url = "github:nixos/nixpkgs/release-23.05";
+    stable.url = "github:nixos/nixpkgs/release-23.11";
     hyprland.url = "github:hyprwm/Hyprland";
     hyprland-contrib.url = "github:hyprwm/contrib";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
-    dwl-source = {
-      url = "github:djpohly/dwl";
-      flake = false;
-    };
-    yambar-source = {
-      url = "git+https://codeberg.org/dnkl/yambar";
-      flake = false;
-    };
   };
 
-  outputs = { self , nixpkgs, stable ,home-manager, hyprland , nixos-hardware, ... }@inputs:
+  outputs = { self , nixpkgs, stable, home-manager, hyprland, nixos-hardware, ... }@inputs:
   {
     overlays = import ./overlays { inherit inputs; };
     nixosModules = import ./modules/nixos;
@@ -28,7 +20,6 @@
     nixosConfigurations = {
       aws = nixpkgs.lib.nixosSystem {    
         system = "x86_64-linux";
-	specialArgs = { inherit inputs; }; # this is the important part
         modules = [ 
 	            ./hosts/aws 
 		    home-manager.nixosModules.home-manager
@@ -42,9 +33,8 @@
     };
 aws-lappy = nixpkgs.lib.nixosSystem {    
         system = "x86_64-linux";
-        specialArgs = { inherit inputs; }; # this is the important part
+	specialArgs = { inherit inputs; }; # this is the important part
         modules = [ 
-                    ./pkgs/dwl.nix
                     ./hosts/aws-lappy 
                     home-manager.nixosModules.home-manager
                        {

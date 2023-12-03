@@ -1,12 +1,18 @@
-{ config, pkgs, dwl-source, yambar-source, ... }:
+{ config, pkgs ,fetchgit, ... }:
 {
   nixpkgs.overlays = [
     (self: super: {
       yambar = super.yambar.overrideAttrs (oldAttrs: rec {
-        src = yambar-source;
+        src = fetchgit {
+           url = "https://codeberg.org/dnkl/yambar";
+           hash= "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa";
+        };
       });
-      dwl = super.dwl.overrideAttrs (oldAttrs: rec {
-        src = dwl-source;
+     dwl = super.dwl.overrideAttrs (oldAttrs: rec {
+        src = fetchgit {
+            url = "https://codeberg.org/dwl/dwl";
+           hash= "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa";
+        };
         patches = [
           ./dwl-patches/focusdirection.patch
           ./dwl-patches/attachbottom.patch

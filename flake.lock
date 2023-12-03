@@ -1,21 +1,5 @@
 {
   "nodes": {
-    "dwl-source": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1700897834,
-        "narHash": "sha256-gFqP3DSDDaABDaB07Xj5lwjPpFuJdeypz1eYs/pKfGM=",
-        "owner": "djpohly",
-        "repo": "dwl",
-        "rev": "58d33b79f90f7060d6d338d2abf345f16b88dd47",
-        "type": "github"
-      },
-      "original": {
-        "owner": "djpohly",
-        "repo": "dwl",
-        "type": "github"
-      }
-    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -166,28 +150,26 @@
     },
     "root": {
       "inputs": {
-        "dwl-source": "dwl-source",
         "home-manager": "home-manager",
         "hyprland": "hyprland",
         "hyprland-contrib": "hyprland-contrib",
         "nixos-hardware": "nixos-hardware",
         "nixpkgs": "nixpkgs_3",
-        "stable": "stable",
-        "yambar-source": "yambar-source"
+        "stable": "stable"
       }
     },
     "stable": {
       "locked": {
-        "lastModified": 1700905716,
-        "narHash": "sha256-w1vHn2MbGfdC+CrP3xLZ3scsI06N0iQLU7eTHIVEFGw=",
+        "lastModified": 1701616228,
+        "narHash": "sha256-x4cCmi/nnGDYLAQKK3vg9fV6PKlFP8XW5hLUEaJJM/U=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "dfb95385d21475da10b63da74ae96d89ab352431",
+        "rev": "50de38fc5a39f6eb2041d7ef1a082ecb23aed8ad",
         "type": "github"
       },
       "original": {
         "owner": "nixos",
-        "ref": "release-23.05",
+        "ref": "release-23.11",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -253,22 +235,6 @@
         "owner": "hyprwm",
         "repo": "xdg-desktop-portal-hyprland",
         "type": "github"
-      }
-    },
-    "yambar-source": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1697207642,
-        "narHash": "sha256-SqhNHajetARnQZo0tw4vui8yDQHpbzhgbFyUcnX7RBA=",
-        "ref": "refs/heads/master",
-        "rev": "89e74139f59ce789a3c3686da5eba3e6a26f1c73",
-        "revCount": 1522,
-        "type": "git",
-        "url": "https://codeberg.org/dnkl/yambar"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://codeberg.org/dnkl/yambar"
       }
     }
   },
