@@ -56,8 +56,7 @@
     fuse3
     icu
     zlib
-    (dwl.override { conf = ./dwl-config.h; })
-
+    hikari
     nss
     openssl
     curl
