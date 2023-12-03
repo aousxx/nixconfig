@@ -10,8 +10,8 @@
 
 
   shellAliases = {
-     tabbyy="docker run -it -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model";
-     tabby="docker run -it -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model TabbyML/DeepseekCoder-6.7B";
+     tabbyL="docker run -it -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model TabbyML/CodeLlama-13B";
+     tabbyD="docker run -it -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model TabbyML/DeepseekCoder-6.7B";
      pkgs="nvim ~/.dotfiles/profiles/aws/default.nix";
      lsp="nvim +56 ~/.dotfiles/profiles/aws/default.nix";
      ali="nvim ~/.dotfiles/profiles/aws/configs/nixconfigs/zsh/default.nix";

@@ -1,0 +1,40 @@
+[1701611021] warming up the model with an empty run
+[1701611021] Available slots:
+[1701611021]  -> Slot 0 - max context: 2048
+[1701611021] 
+llama server listening at http://127.0.0.1:56869
+
+[1701611021] all slots are idle and system prompt is empty, clear the KV cache
+[1701611022] slot 0 is processing [task id: 0]
+[1701611022] slot 0 : kv cache rm - [0, end)
+[1701611026] sampled token: 13940: '``'
+[1701611026] sampled token: 28832: '`'
+[1701611026] sampled token:    13: '
+'
+[1701611026] sampled token:  1392: 'for'
+[1701611026] sampled token:   613: ' i'
+[1701611027] sampled token:   297: ' in'
+[1701611027] sampled token:  2819: ' range'
+[1701611027] sampled token: 28732: '('
+[1701611027] sampled token: 28750: '2'
+[1701611027] sampled token: 28750: '2'
+[1701611027] sampled token: 28750: '2'
+[1701611027] sampled token:  1329: '):'
+[1701611028] sampled token:    13: '
+'
+[1701611028] sampled token:  2287: '   '
+[1701611028] sampled token:  2682: ' print'
+[1701611028] sampled token: 28732: '('
+[1701611028] sampled token: 28710: 'i'
+[1701611028] sampled token: 28731: ')'
+[1701611028] sampled token:    13: '
+'
+[1701611029] sampled token: 13940: '``'
+[1701611029] sampled token: 28832: '`'
+[1701611029] sampled token:     2: ''
+[1701611029] 
+[1701611029] print_timings: prompt eval time =    4480.61 ms /    48 tokens (   93.35 ms per token,    10.71 tokens per second)
+[1701611029] print_timings:        eval time =    2737.20 ms /    21 runs   (  130.34 ms per token,     7.67 tokens per second)
+[1701611029] print_timings:       total time =    7217.82 ms
+[1701611029] slot 0 released (70 tokens in cache)
+[1701611029] slot 0 released (70 tokens in cache)
