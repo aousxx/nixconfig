@@ -9,7 +9,9 @@
 
 
   environment.binsh = "${pkgs.dash}/bin/dash";
-
+  environment.systemPackages = [
+    pkgs.hikari
+    ];
        # Allow unfree packages
   nixpkgs.config = {
   
@@ -47,7 +49,6 @@
   }; 
   
     services.xserver.desktopManager.gnome.enable = true;
-
     programs.nix-ld.enable = true;
     programs.nix-ld.libraries = with pkgs; [
     libexecinfo
@@ -56,7 +57,6 @@
     fuse3
     icu
     zlib
-    hikari
     nss
     openssl
     curl
@@ -123,16 +123,10 @@
  
   nix.settings = {
       experimental-features = [ "nix-command" "flakes" ];
-      substituters = ["https://hyprland.cachix.org"];
-      trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
   };
 
 
   services.printing.enable = true;
-  programs.hyprland = {
-                        enable = true;
-                        package = (inputs.hyprland.packages.${pkgs.system}.hyprland.override {legacyRenderer = true;});
- };
 
 
   programs.steam = {
