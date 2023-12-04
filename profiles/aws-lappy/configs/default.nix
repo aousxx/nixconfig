@@ -11,20 +11,21 @@
 
   imports = [
    ./nixconfigs/theme
-   #./nixconfigs/nvim
    ./nixconfigs/zsh
+   ./nixconfigs/tmux
  ];
 
 
 
   #Tela.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/icons .local/share/icons"
   xdg.dataFile = {
-  #icons.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/icons";
   };
 
   xdg.configFile = {
-    hypr.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/hypr";
     MangoHud.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/MangoHud";
+    yambar.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/yambar";
+    river.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/river";
+    hypr.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/hypr";
     nvim.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/nvim";
     kitty.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/kitty";
     waybar.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/waybar";

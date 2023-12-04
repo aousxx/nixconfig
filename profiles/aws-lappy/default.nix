@@ -10,7 +10,7 @@
     
    #ttf-icomoon-feather
     wget winetricks wine-staging xdg-desktop-portal-gtk at-spi2-atk 
-     
+    yambar
     mesa-demos gcc glib flavours
     #wpgtk 
      (pkgs.python3.withPackages (ps: with ps; [psutil pipx])) 
