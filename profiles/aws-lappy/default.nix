@@ -18,6 +18,7 @@
     
     vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  gamescope
     neovim
+    foot
     kitty 
     
     feh  mpv  syncplay
