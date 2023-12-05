@@ -2,22 +2,22 @@
 /*  by  */
 
 :root {
-  --base00: #1a283a;
-  --base01: #3f4855;
-  --base02: #64686f;
-  --base03: #89888a;
-  --base04: #aea8a5;
-  --base05: #d2c8c0;
-  --base06: #d9d0c9;
-  --base07: #e0d8d2;
-  --base08: #6c94a5;
-  --base09: #6a88ac;
-  --base0A: #297cc3;
-  --base0B: #4c7da5;
-  --base0C: #93b1d1;
-  --base0D: #b26c48;
-  --base0E: #99bede;
-  --base0F: #727885;
+  --base00: #26252e;
+  --base01: #4a474d;
+  --base02: #6e696d;
+  --base03: #928b8c;
+  --base04: #b6acab;
+  --base05: #d9ceca;
+  --base06: #dfd5d2;
+  --base07: #e5ddda;
+  --base08: #8b9590;
+  --base09: #868196;
+  --base0A: #707d52;
+  --base0B: #cd4c50;
+  --base0C: #6c7d61;
+  --base0D: #7a768a;
+  --base0E: #a57431;
+  --base0F: #78768d;
 }
 /* end flavours */
 
