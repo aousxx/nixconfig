@@ -23,8 +23,10 @@
   };
 
   xdg.configFile = {
-    hypr.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/hypr";
     MangoHud.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/MangoHud";
+    yambar.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/yambar";
+    river.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/river";
+    hypr.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/hypr";
     nvim.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/nvim";
     kitty.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/kitty";
     waybar.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/waybar";
