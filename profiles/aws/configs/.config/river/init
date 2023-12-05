@@ -14,14 +14,14 @@
 
 riverctl map normal Super+Shift Return spawn foot
 riverctl spawn thorium-browser
+riverctl spawn "wl-paste --watch cliphist store"
 riverctl spawn connman-gtk
-riverctl spawn yambar
 riverctl spawn swww init
 riverctl spawn blueberry
 riverctl spawn pavucontrol
 riverctl map normal Super T spawn "LIBGL_ALWAYS_SOFTWARE=1 kitty"
 riverctl map normal Super R spawn "bemenu-run"
-
+riverctl map normal Super V spawn "cliphist list | bemenu | cliphist decode | wl-copy"
 # Super+Q to close the focused view
 riverctl map normal Super Q close
 
@@ -33,6 +33,7 @@ riverctl map normal Super D focus-view next
 riverctl map normal Super S focus-view next
 riverctl map normal Super W focus-view previous
 riverctl map normal Super A focus-view previous
+riverctl map nromal Super P spawn "sh $HOME/.config/hypr/scripts/wall.sh --light"
 
 # Super+Shift+J and Super+Shift+K to swap the focused view with the next/previous
 # view in the layout stack
