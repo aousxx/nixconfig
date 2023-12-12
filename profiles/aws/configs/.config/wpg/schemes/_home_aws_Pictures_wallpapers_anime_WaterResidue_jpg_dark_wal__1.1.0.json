@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/WaterResidue.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1e2427",
+        "foreground": "#e4e8ea",
+        "cursor": "#e4e8ea"
+    },
+    "colors": {
+        "color0": "#1e2427",
+        "color1": "#C3C2BD",
+        "color2": "#96BAC6",
+        "color3": "#94C7D1",
+        "color4": "#AEC9CD",
+        "color5": "#CFD3D3",
+        "color6": "#D6DBE3",
+        "color7": "#e4e8ea",
+        "color8": "#9fa2a3",
+        "color9": "#C3C2BD",
+        "color10": "#96BAC6",
+        "color11": "#94C7D1",
+        "color12": "#AEC9CD",
+        "color13": "#CFD3D3",
+        "color14": "#D6DBE3",
+        "color15": "#e4e8ea"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/aws/.config/wpg/wallpapers/20230725_21h34m00s_grim.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0B1314",
+        "foreground": "#e4e4e4",
+        "cursor": "#e4e4e4"
+    },
+    "colors": {
+        "color0": "#0B1314",
+        "color1": "#3A4549",
+        "color2": "#3B5360",
+        "color3": "#464E4E",
+        "color4": "#4E5E67",
+        "color5": "#949F9C",
+        "color6": "#ABB5B4",
+        "color7": "#e4e4e4",
+        "color8": "#9f9f9f",
+        "color9": "#3A4549",
+        "color10": "#3B5360",
+        "color11": "#464E4E",
+        "color12": "#4E5E67",
+        "color13": "#949F9C",
+        "color14": "#ABB5B4",
+        "color15": "#e4e4e4"
+    }
+}

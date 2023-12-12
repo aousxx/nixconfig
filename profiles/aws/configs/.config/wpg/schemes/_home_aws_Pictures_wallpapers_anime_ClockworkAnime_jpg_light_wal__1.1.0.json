@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/ClockworkAnime.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f5faf8",
+        "foreground": "#121413",
+        "cursor": "#121413"
+    },
+    "colors": {
+        "color0": "#f5faf8",
+        "color1": "#966F5F",
+        "color2": "#60817D",
+        "color3": "#938778",
+        "color4": "#649D97",
+        "color5": "#75CCC3",
+        "color6": "#92958B",
+        "color7": "#121413",
+        "color8": "#72857d",
+        "color9": "#966F5F",
+        "color10": "#60817D",
+        "color11": "#938778",
+        "color12": "#649D97",
+        "color13": "#75CCC3",
+        "color14": "#92958B",
+        "color15": "#121413"
+    }
+}

@@ -6,9 +6,6 @@
   enable = true ;
   dotDir = ".config/zsh";
   syntaxHighlighting.enable = true;
-
-
-
   shellAliases = {
      tabbyL="docker run -it -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model TabbyML/CodeLlama-13B";
      tabbyD="docker run -it -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model TabbyML/DeepseekCoder-6.7B";
@@ -17,6 +14,20 @@
      ali="nvim ~/.dotfiles/profiles/aws/configs/nixconfigs/zsh/default.nix";
      nlsp="nvim +556 ~/.dotfiles/profiles/aws/configs/.config/nvim/init.lua";
   };
+    initExtra = ''
+      export ZELLIJ_AUTO_ATTACH="true"
+      if [[ -z "$ZELLIJ" ]]; then
+          if [[ "$ZELLIJ_AUTO_ATTACH" == "true" ]]; then
+              zellij attach -c
+          else
+              zellij
+          fi
+      
+          if [[ "$ZELLIJ_AUTO_EXIT" == "true" ]]; then
+              exit
+          fi
+      fi
+  '';
   plugins = [
     {
       # will source zsh-autosuggestions.plugin.zsh

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/168053-anime-anime_girl_with_car-cars-anime_art-tire-2048x1152.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1215",
+        "foreground": "#c9d9de",
+        "cursor": "#c9d9de"
+    },
+    "colors": {
+        "color0": "#0f1215",
+        "color1": "#58A5CF",
+        "color2": "#70B6D6",
+        "color3": "#79C1DB",
+        "color4": "#8FA9B4",
+        "color5": "#9DBBC9",
+        "color6": "#90C4D6",
+        "color7": "#c9d9de",
+        "color8": "#8c979b",
+        "color9": "#58A5CF",
+        "color10": "#70B6D6",
+        "color11": "#79C1DB",
+        "color12": "#8FA9B4",
+        "color13": "#9DBBC9",
+        "color14": "#90C4D6",
+        "color15": "#c9d9de"
+    }
+}

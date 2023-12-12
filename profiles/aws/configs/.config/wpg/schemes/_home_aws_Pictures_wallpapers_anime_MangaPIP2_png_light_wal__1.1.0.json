@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/MangaPIP2.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfdfc",
+        "foreground": "#383838",
+        "cursor": "#383838"
+    },
+    "colors": {
+        "color0": "#fdfdfc",
+        "color1": "#8FAB7C",
+        "color2": "#F1B16E",
+        "color3": "#6E9186",
+        "color4": "#939391",
+        "color5": "#B0B0AF",
+        "color6": "#C7C0A5",
+        "color7": "#383838",
+        "color8": "#929190",
+        "color9": "#8FAB7C",
+        "color10": "#F1B16E",
+        "color11": "#6E9186",
+        "color12": "#939391",
+        "color13": "#B0B0AF",
+        "color14": "#C7C0A5",
+        "color15": "#383838"
+    }
+}

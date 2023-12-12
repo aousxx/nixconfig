@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/FloatingTrain.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#22231f",
+        "foreground": "#cad9d9",
+        "cursor": "#cad9d9"
+    },
+    "colors": {
+        "color0": "#22231f",
+        "color1": "#4C779B",
+        "color2": "#64A29E",
+        "color3": "#3698EF",
+        "color4": "#50AFF3",
+        "color5": "#68C6FB",
+        "color6": "#9DD896",
+        "color7": "#cad9d9",
+        "color8": "#8d9797",
+        "color9": "#4C779B",
+        "color10": "#64A29E",
+        "color11": "#3698EF",
+        "color12": "#50AFF3",
+        "color13": "#68C6FB",
+        "color14": "#9DD896",
+        "color15": "#cad9d9"
+    }
+}

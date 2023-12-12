@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/RiverBoat.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fdf9f2",
+        "foreground": "#19222C",
+        "cursor": "#19222C"
+    },
+    "colors": {
+        "color0": "#fdf9f2",
+        "color1": "#C6976D",
+        "color2": "#3D6986",
+        "color3": "#46718E",
+        "color4": "#6C7988",
+        "color5": "#79858F",
+        "color6": "#DAB194",
+        "color7": "#19222C",
+        "color8": "#918267",
+        "color9": "#C6976D",
+        "color10": "#3D6986",
+        "color11": "#46718E",
+        "color12": "#6C7988",
+        "color13": "#79858F",
+        "color14": "#DAB194",
+        "color15": "#19222C"
+    }
+}

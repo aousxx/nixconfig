@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/AE86Trueno.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#070506",
+        "foreground": "#ddc5de",
+        "cursor": "#ddc5de"
+    },
+    "colors": {
+        "color0": "#070506",
+        "color1": "#7C92DC",
+        "color2": "#7F95E0",
+        "color3": "#CA90B3",
+        "color4": "#9096DB",
+        "color5": "#AE9AD5",
+        "color6": "#979FEA",
+        "color7": "#ddc5de",
+        "color8": "#9a899b",
+        "color9": "#7C92DC",
+        "color10": "#7F95E0",
+        "color11": "#CA90B3",
+        "color12": "#9096DB",
+        "color13": "#AE9AD5",
+        "color14": "#979FEA",
+        "color15": "#ddc5de"
+    }
+}

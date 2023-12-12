@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/EvangelionSilly.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fefefe",
+        "foreground": "#849294",
+        "cursor": "#849294"
+    },
+    "colors": {
+        "color0": "#fefefe",
+        "color1": "#B1CECF",
+        "color2": "#CECDD5",
+        "color3": "#E6D5D6",
+        "color4": "#D8D7E5",
+        "color5": "#D5E5E5",
+        "color6": "#F3F3F5",
+        "color7": "#849294",
+        "color8": "#969797",
+        "color9": "#B1CECF",
+        "color10": "#CECDD5",
+        "color11": "#E6D5D6",
+        "color12": "#D8D7E5",
+        "color13": "#D5E5E5",
+        "color14": "#F3F3F5",
+        "color15": "#849294"
+    }
+}

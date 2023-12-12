@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/FantasyAnime.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f0f3f4",
+        "foreground": "#203533",
+        "cursor": "#203533"
+    },
+    "colors": {
+        "color0": "#f0f3f4",
+        "color1": "#A18F61",
+        "color2": "#295797",
+        "color3": "#346EA4",
+        "color4": "#4976A3",
+        "color5": "#3D88A4",
+        "color6": "#5395A9",
+        "color7": "#203533",
+        "color8": "#5e6c6e",
+        "color9": "#A18F61",
+        "color10": "#295797",
+        "color11": "#346EA4",
+        "color12": "#4976A3",
+        "color13": "#3D88A4",
+        "color14": "#5395A9",
+        "color15": "#203533"
+    }
+}

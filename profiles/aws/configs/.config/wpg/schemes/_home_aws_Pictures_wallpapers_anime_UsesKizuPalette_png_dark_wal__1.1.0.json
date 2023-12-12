@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/UsesKizuPalette.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0F10",
+        "foreground": "#dedede",
+        "cursor": "#dedede"
+    },
+    "colors": {
+        "color0": "#0B0F10",
+        "color1": "#DD5B61",
+        "color2": "#DE5B61",
+        "color3": "#E55D63",
+        "color4": "#8E817F",
+        "color5": "#A59D9B",
+        "color6": "#CCB2B1",
+        "color7": "#dedede",
+        "color8": "#9b9b9b",
+        "color9": "#DD5B61",
+        "color10": "#DE5B61",
+        "color11": "#E55D63",
+        "color12": "#8E817F",
+        "color13": "#A59D9B",
+        "color14": "#CCB2B1",
+        "color15": "#dedede"
+    }
+}

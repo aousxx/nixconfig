@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/aws/.config/wpg/wallpapers/1711593.gif",
+    "alpha": "100",
+
+    "special": {
+        "background": "#fffefb",
+        "foreground": "#1f1f1f",
+        "cursor": "#1f1f1f"
+    },
+    "colors": {
+        "color0": "#fffefb",
+        "color1": "#ecc8e6",
+        "color2": "#edfffa",
+        "color3": "#ffeaf3",
+        "color4": "#ccf0ff",
+        "color5": "#ffc8e3",
+        "color6": "#b1c5ee",
+        "color7": "#226480",
+        "color8": "#f1eee8",
+        "color9": "#d86ac4",
+        "color10": "#82e7c4",
+        "color11": "#f87b9b",
+        "color12": "#6bb3f0",
+        "color13": "#eb69a3",
+        "color14": "#5e84d5",
+        "color15": "#1f1f1f"
+    }
+}

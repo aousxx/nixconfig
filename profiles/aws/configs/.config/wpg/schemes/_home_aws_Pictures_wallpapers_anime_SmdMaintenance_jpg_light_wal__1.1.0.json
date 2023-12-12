@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/SmdMaintenance.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfdfd",
+        "foreground": "#2C2A2E",
+        "cursor": "#2C2A2E"
+    },
+    "colors": {
+        "color0": "#fdfdfd",
+        "color1": "#7A9CC2",
+        "color2": "#95979C",
+        "color3": "#829CBD",
+        "color4": "#E6D7B1",
+        "color5": "#8EAAC9",
+        "color6": "#99ACC6",
+        "color7": "#2C2A2E",
+        "color8": "#919191",
+        "color9": "#7A9CC2",
+        "color10": "#95979C",
+        "color11": "#829CBD",
+        "color12": "#E6D7B1",
+        "color13": "#8EAAC9",
+        "color14": "#99ACC6",
+        "color15": "#2C2A2E"
+    }
+}

@@ -13,7 +13,6 @@
    ./nixconfigs/theme
    #./nixconfigs/nvim
    ./nixconfigs/zsh
-   ./nixconfigs/tmux
  ];
 
 
@@ -23,8 +22,9 @@
   };
 
   xdg.configFile = {
-    MangoHud.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/MangoHud";
     yambar.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/yambar";
+    wpg.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/wpg";
+    MangoHud.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/MangoHud";
     river.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/river";
     hypr.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/hypr";
     nvim.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/nvim";
@@ -36,6 +36,5 @@
     flavours.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/flavours";
     mpv.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/mpv";
     "discord/settings.json".source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/discord/settings.json";
-    "wpg/wpg.conf".source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/wpg/wpg.conf";
   };
 }

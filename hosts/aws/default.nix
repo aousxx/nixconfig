@@ -33,6 +33,12 @@
   i18n.defaultLocale = "en_US.UTF-8";
  
   virtualisation.waydroid.enable = true;
+    security.pam.loginLimits = [
+    { domain = "@audio"; item = "memlock"; type = "-"; value = "unlimited"; }
+    { domain = "@audio"; item = "rtprio"; type = "-"; value = "99"; }
+    { domain = "@audio"; item = "nofile"; type = "soft"; value = "1048576"; }
+    { domain = "@audio"; item = "nofile"; type = "hard"; value = "1048576"; }
+  ];
 
 
   sound.enable = true;
@@ -45,6 +51,7 @@
     pulse.enable = true;
     jack.enable = true;
   }; 
+
 
 
     programs.nix-ld.enable = true;
@@ -136,7 +143,7 @@
     shell = pkgs.zsh;
     isNormalUser = true;
     description = "aws abdulrahman";
-    extraGroups = [ "docker" "wheel" "libvirtd" ];
+    extraGroups = ["audio" "docker" "wheel" "libvirtd" ];
     packages = with pkgs; [
       wpgtk
     ];

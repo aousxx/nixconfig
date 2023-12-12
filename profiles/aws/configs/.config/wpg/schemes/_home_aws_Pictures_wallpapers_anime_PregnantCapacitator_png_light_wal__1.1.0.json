@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/PregnantCapacitator.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fbfafc",
+        "foreground": "#403A46",
+        "cursor": "#403A46"
+    },
+    "colors": {
+        "color0": "#fbfafc",
+        "color1": "#D3B0B8",
+        "color2": "#94B5D3",
+        "color3": "#B1B5CB",
+        "color4": "#9FC0DD",
+        "color5": "#A1C1DE",
+        "color6": "#ADCDEA",
+        "color7": "#403A46",
+        "color8": "#8a888e",
+        "color9": "#D3B0B8",
+        "color10": "#94B5D3",
+        "color11": "#B1B5CB",
+        "color12": "#9FC0DD",
+        "color13": "#A1C1DE",
+        "color14": "#ADCDEA",
+        "color15": "#403A46"
+    }
+}

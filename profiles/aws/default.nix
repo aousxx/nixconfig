@@ -6,7 +6,6 @@
   ];
   services.easyeffects.enable = true;
 
-
   home.packages = with pkgs; [
    
     ollama
@@ -22,6 +21,7 @@
     imagemagick kitty lzip zip unzip fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
     neovim
     vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  gamescope
+    zellij
 
     kitty 
 
