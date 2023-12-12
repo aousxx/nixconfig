@@ -10,7 +10,7 @@
   home.packages = with pkgs; [
    
     ollama
-    
+    mpvpaper
    #ttf-icomoon-feather
     xwaylandvideobridgehypr
     wget winetricks wine-staging android-tools  xorg.xhost xdg-desktop-portal-gtk at-spi2-atk 
