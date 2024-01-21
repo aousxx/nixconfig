@@ -67,8 +67,6 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-
-
 -- [[ Configure plugins ]]
 -- NOTE: Here is where you install your plugins.
 --  You can configure plugins using the `config` key.
@@ -171,7 +169,6 @@ require('lazy').setup({
     priority = 1000,
     config = function()
       vim.cmd.colorscheme 'rose-pine'
-    end,
   },
 
   {
