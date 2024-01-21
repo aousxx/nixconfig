@@ -1,3 +1,9 @@
 *result*
 strace
 *.swp
+profiles/aws/configs/.config/beautifuldiscord/style.css
+profiles/aws/configs/.config/discord/
+profiles/aws/configs/.config/flavours/item-files/telegram/background.png
+profiles/aws/configs/.config/flavours/item-files/telegram/colors.tdesktop-theme
+profiles/aws/configs/.config/flavours/item-files/telegram/final.tdesktop-theme
+profiles/aws/configs/icons/hicolor/icon-theme.cache
