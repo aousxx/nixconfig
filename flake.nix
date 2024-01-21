@@ -3,8 +3,8 @@
 
   inputs = {
     nixos-hardware.url = "github:nixos/nixos-hardware";
-    nixpkgs.url = "github:/nixos/nixpkgs/nixos-unstable";
-    stable.url = "github:nixos/nixpkgs/release-23.11";
+    stable.url = "github:/nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/release-23.11";
     hyprland.url = "github:hyprwm/Hyprland";
     hyprland-contrib.url = "github:hyprwm/contrib";
     home-manager.url = "github:nix-community/home-manager";

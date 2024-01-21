@@ -17,7 +17,7 @@
   };
 
   home.packages = with pkgs; [
-  whisper-ctranslate2
+   # whisper-ctranslate2
     ollama
     mpvpaper
    #ttf-icomoon-feather
@@ -30,14 +30,6 @@
     ventoy-full
     rustup nodejs_20 (pkgs.python3.withPackages (ps: with ps; [psutil pipx])) 
     imagemagick kitty fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
-    xwaylandvideobridgehypr
-    wget winetricks wine-staging android-tools  xorg.xhost xdg-desktop-portal-gtk at-spi2-atk 
-     
-    glib flavours spicetify-cli
-    #wpgtk 
-    ventoy-full
-    nodejs_20 (pkgs.python3.withPackages (ps: with ps; [psutil pipx])) 
-    imagemagick kitty lzip zip unzip fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
     neovim
     vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  gamescope
     zellij
@@ -74,19 +66,9 @@
     
     #LSPs
     gopls nil nodePackages."@tailwindcss/language-server" 
-<<<<<<< HEAD
-
-
-
-
-
-
-
     atool 
     #atool depends
     zip unzip xz unrar p7zip gzip
-=======
->>>>>>> 153239e7ee12a1321312039a53c3a5e63212c1b4
   ];
 
   

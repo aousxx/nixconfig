@@ -12,6 +12,10 @@
 
 
   environment.binsh = "${pkgs.dash}/bin/dash";
+  services.devmon.enable = true;
+  services.gvfs.enable = true;
+  services.udisks2.enable = true;
+
 
        # Allow unfree packages
   nixpkgs.config = {
@@ -146,7 +150,7 @@
     shell = pkgs.zsh;
     isNormalUser = true;
     description = "aws abdulrahman";
-    extraGroups = ["audio" "docker" "wheel" "libvirtd" ];
+    extraGroups = ["audio" "docker" "users" "wheel" "libvirtd" ];
     packages = with pkgs; [
       wpgtk
     ];
