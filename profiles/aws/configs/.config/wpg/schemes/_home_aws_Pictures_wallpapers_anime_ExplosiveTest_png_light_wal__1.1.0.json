@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/ExplosiveTest.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fafafa",
+        "foreground": "#2A2A2A",
+        "cursor": "#2A2A2A"
+    },
+    "colors": {
+        "color0": "#fafafa",
+        "color1": "#679B96",
+        "color2": "#6DA19C",
+        "color3": "#6386A2",
+        "color4": "#77ABA6",
+        "color5": "#A88592",
+        "color6": "#90AAA9",
+        "color7": "#2A2A2A",
+        "color8": "#878786",
+        "color9": "#679B96",
+        "color10": "#6DA19C",
+        "color11": "#6386A2",
+        "color12": "#77ABA6",
+        "color13": "#A88592",
+        "color14": "#90AAA9",
+        "color15": "#2A2A2A"
+    }
+}

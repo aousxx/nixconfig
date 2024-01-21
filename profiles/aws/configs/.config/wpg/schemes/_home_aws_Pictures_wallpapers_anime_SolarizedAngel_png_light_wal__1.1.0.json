@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/SolarizedAngel.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfdfc",
+        "foreground": "#112A2F",
+        "cursor": "#112A2F"
+    },
+    "colors": {
+        "color0": "#fdfdfc",
+        "color1": "#E3A356",
+        "color2": "#537A82",
+        "color3": "#778F85",
+        "color4": "#9FA190",
+        "color5": "#D8B69A",
+        "color6": "#ECCBB2",
+        "color7": "#112A2F",
+        "color8": "#94918f",
+        "color9": "#E3A356",
+        "color10": "#537A82",
+        "color11": "#778F85",
+        "color12": "#9FA190",
+        "color13": "#D8B69A",
+        "color14": "#ECCBB2",
+        "color15": "#112A2F"
+    }
+}

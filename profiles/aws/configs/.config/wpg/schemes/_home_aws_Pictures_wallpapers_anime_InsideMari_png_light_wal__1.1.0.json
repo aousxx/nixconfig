@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/InsideMari.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fbfbfb",
+        "foreground": "#0F0F0F",
+        "cursor": "#0F0F0F"
+    },
+    "colors": {
+        "color0": "#fbfbfb",
+        "color1": "#707070",
+        "color2": "#878787",
+        "color3": "#989898",
+        "color4": "#B0B0B0",
+        "color5": "#C4C4C4",
+        "color6": "#CCCCCC",
+        "color7": "#0F0F0F",
+        "color8": "#898989",
+        "color9": "#707070",
+        "color10": "#878787",
+        "color11": "#989898",
+        "color12": "#B0B0B0",
+        "color13": "#C4C4C4",
+        "color14": "#CCCCCC",
+        "color15": "#0F0F0F"
+    }
+}

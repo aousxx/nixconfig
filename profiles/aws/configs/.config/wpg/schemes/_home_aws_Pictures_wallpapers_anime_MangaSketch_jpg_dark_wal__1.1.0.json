@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/MangaSketch.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0C1011",
+        "foreground": "#eee9e4",
+        "cursor": "#eee9e4"
+    },
+    "colors": {
+        "color0": "#0C1011",
+        "color1": "#CEAA96",
+        "color2": "#CDBAAB",
+        "color3": "#D7C5B7",
+        "color4": "#D5BCC1",
+        "color5": "#DAD0C8",
+        "color6": "#E6DBD1",
+        "color7": "#eee9e4",
+        "color8": "#a6a39f",
+        "color9": "#CEAA96",
+        "color10": "#CDBAAB",
+        "color11": "#D7C5B7",
+        "color12": "#D5BCC1",
+        "color13": "#DAD0C8",
+        "color14": "#E6DBD1",
+        "color15": "#eee9e4"
+    }
+}

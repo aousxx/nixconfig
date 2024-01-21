@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/GhibiliRoots.png",
+    "alpha": "100",
+    "special": {
+        "background": "#f5f4f3",
+        "foreground": "#0A1718",
+        "cursor": "#0A1718"
+    },
+    "colors": {
+        "color0": "#f5f4f3",
+        "color1": "#2B5D4C",
+        "color2": "#4F6B4E",
+        "color3": "#608B39",
+        "color4": "#37935D",
+        "color5": "#5C9B4F",
+        "color6": "#9DAD54",
+        "color7": "#0A1718",
+        "color8": "#74706b",
+        "color9": "#2B5D4C",
+        "color10": "#4F6B4E",
+        "color11": "#608B39",
+        "color12": "#37935D",
+        "color13": "#5C9B4F",
+        "color14": "#9DAD54",
+        "color15": "#0A1718"
+    }
+}

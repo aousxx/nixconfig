@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/SignsSignsSigns.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f8f7f6",
+        "foreground": "#473D57",
+        "cursor": "#473D57"
+    },
+    "colors": {
+        "color0": "#f8f7f6",
+        "color1": "#A1969D",
+        "color2": "#C8B89A",
+        "color3": "#D7C7A3",
+        "color4": "#EFDAA5",
+        "color5": "#F7E4B0",
+        "color6": "#B5AEC6",
+        "color7": "#473D57",
+        "color8": "#7d7b75",
+        "color9": "#A1969D",
+        "color10": "#C8B89A",
+        "color11": "#D7C7A3",
+        "color12": "#EFDAA5",
+        "color13": "#F7E4B0",
+        "color14": "#B5AEC6",
+        "color15": "#473D57"
+    }
+}

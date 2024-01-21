@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/aws/.config/wpg/wallpapers/2023-08-31T12:12:17,828126547+02:00.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#e4e7e9",
+        "foreground": "#010101",
+        "cursor": "#010101"
+    },
+    "colors": {
+        "color0": "#e4e7e9",
+        "color1": "#5C5A53",
+        "color2": "#CFD1D2",
+        "color3": "#A7AAAA",
+        "color4": "#30536F",
+        "color5": "#B3C1CC",
+        "color6": "#6A9D9C",
+        "color7": "#0E0D0E",
+        "color8": "#cbcdcf",
+        "color9": "#4f472b",
+        "color10": "#6c9eb7",
+        "color11": "#579494",
+        "color12": "#143b5b",
+        "color13": "#5c8bb0",
+        "color14": "#338483",
+        "color15": "#010101"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/RainyDay.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#111717",
+        "foreground": "#c0cac8",
+        "cursor": "#c0cac8"
+    },
+    "colors": {
+        "color0": "#111717",
+        "color1": "#588C44",
+        "color2": "#658C6F",
+        "color3": "#ABB355",
+        "color4": "#557986",
+        "color5": "#6A9696",
+        "color6": "#49A9AA",
+        "color7": "#c0cac8",
+        "color8": "#868d8c",
+        "color9": "#588C44",
+        "color10": "#658C6F",
+        "color11": "#ABB355",
+        "color12": "#557986",
+        "color13": "#6A9696",
+        "color14": "#49A9AA",
+        "color15": "#c0cac8"
+    }
+}

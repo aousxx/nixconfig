@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/PixelartCityscape.png",
+    "alpha": "100",
+    "special": {
+        "background": "#f7fcfe",
+        "foreground": "#163252",
+        "cursor": "#163252"
+    },
+    "colors": {
+        "color0": "#f7fcfe",
+        "color1": "#648CAC",
+        "color2": "#3697C8",
+        "color3": "#71A3CE",
+        "color4": "#96B0C2",
+        "color5": "#ADD5EE",
+        "color6": "#AEDCFC",
+        "color7": "#163252",
+        "color8": "#7a8e97",
+        "color9": "#648CAC",
+        "color10": "#3697C8",
+        "color11": "#71A3CE",
+        "color12": "#96B0C2",
+        "color13": "#ADD5EE",
+        "color14": "#AEDCFC",
+        "color15": "#163252"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/GhibiliStream.png",
+    "alpha": "100",
+    "special": {
+        "background": "#f7f7f5",
+        "foreground": "#151E1F",
+        "cursor": "#151E1F"
+    },
+    "colors": {
+        "color0": "#f7f7f5",
+        "color1": "#4B534D",
+        "color2": "#5D6D5B",
+        "color3": "#4A8549",
+        "color4": "#62925D",
+        "color5": "#8FA26A",
+        "color6": "#768388",
+        "color7": "#151E1F",
+        "color8": "#7b7c74",
+        "color9": "#4B534D",
+        "color10": "#5D6D5B",
+        "color11": "#4A8549",
+        "color12": "#62925D",
+        "color13": "#8FA26A",
+        "color14": "#768388",
+        "color15": "#151E1F"
+    }
+}

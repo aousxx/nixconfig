@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/NightTrain.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f8f7f9",
+        "foreground": "#0A181E",
+        "cursor": "#0A181E"
+    },
+    "colors": {
+        "color0": "#f8f7f9",
+        "color1": "#244C62",
+        "color2": "#4B5054",
+        "color3": "#595C64",
+        "color4": "#6D6B6F",
+        "color5": "#8D757E",
+        "color6": "#6C728B",
+        "color7": "#0A181E",
+        "color8": "#7e7b83",
+        "color9": "#244C62",
+        "color10": "#4B5054",
+        "color11": "#595C64",
+        "color12": "#6D6B6F",
+        "color13": "#8D757E",
+        "color14": "#6C728B",
+        "color15": "#0A181E"
+    }
+}

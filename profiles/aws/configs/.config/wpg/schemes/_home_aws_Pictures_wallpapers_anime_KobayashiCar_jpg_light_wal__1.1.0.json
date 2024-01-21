@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/KobayashiCar.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#eef7fb",
+        "foreground": "#1A1E24",
+        "cursor": "#1A1E24"
+    },
+    "colors": {
+        "color0": "#eef7fb",
+        "color1": "#59A5CF",
+        "color2": "#70B6D6",
+        "color3": "#77C0DC",
+        "color4": "#8FA9B4",
+        "color5": "#9DBCC9",
+        "color6": "#90C4D6",
+        "color7": "#1A1E24",
+        "color8": "#587c89",
+        "color9": "#59A5CF",
+        "color10": "#70B6D6",
+        "color11": "#77C0DC",
+        "color12": "#8FA9B4",
+        "color13": "#9DBCC9",
+        "color14": "#90C4D6",
+        "color15": "#1A1E24"
+    }
+}

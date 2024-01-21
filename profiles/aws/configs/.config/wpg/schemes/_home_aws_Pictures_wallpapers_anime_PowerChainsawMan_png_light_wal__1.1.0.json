@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/PowerChainsawMan.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fefefe",
+        "foreground": "#000000",
+        "cursor": "#000000"
+    },
+    "colors": {
+        "color0": "#fefefe",
+        "color1": "#A7A7A7",
+        "color2": "#B8B8B8",
+        "color3": "#C7C7C7",
+        "color4": "#DBDBDB",
+        "color5": "#E3E3E3",
+        "color6": "#EBEBEB",
+        "color7": "#000000",
+        "color8": "#979797",
+        "color9": "#A7A7A7",
+        "color10": "#B8B8B8",
+        "color11": "#C7C7C7",
+        "color12": "#DBDBDB",
+        "color13": "#E3E3E3",
+        "color14": "#EBEBEB",
+        "color15": "#000000"
+    }
+}

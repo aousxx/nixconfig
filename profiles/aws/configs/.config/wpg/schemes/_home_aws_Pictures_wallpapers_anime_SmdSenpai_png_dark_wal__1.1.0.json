@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/SmdSenpai.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1d1b1e",
+        "foreground": "#f2ead8",
+        "cursor": "#f2ead8"
+    },
+    "colors": {
+        "color0": "#1d1b1e",
+        "color1": "#847E88",
+        "color2": "#8E8C93",
+        "color3": "#A89995",
+        "color4": "#B6B3B9",
+        "color5": "#D3C2B4",
+        "color6": "#D3D0D4",
+        "color7": "#f2ead8",
+        "color8": "#a9a397",
+        "color9": "#847E88",
+        "color10": "#8E8C93",
+        "color11": "#A89995",
+        "color12": "#B6B3B9",
+        "color13": "#D3C2B4",
+        "color14": "#D3D0D4",
+        "color15": "#f2ead8"
+    }
+}

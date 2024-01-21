@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/CityspaceIndoors.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#131210",
+        "foreground": "#cdd5d9",
+        "cursor": "#cdd5d9"
+    },
+    "colors": {
+        "color0": "#131210",
+        "color1": "#7D806B",
+        "color2": "#8E9173",
+        "color3": "#506898",
+        "color4": "#728DA1",
+        "color5": "#7295C5",
+        "color6": "#99A4A3",
+        "color7": "#cdd5d9",
+        "color8": "#8f9597",
+        "color9": "#7D806B",
+        "color10": "#8E9173",
+        "color11": "#506898",
+        "color12": "#728DA1",
+        "color13": "#7295C5",
+        "color14": "#99A4A3",
+        "color15": "#cdd5d9"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/AutumnWitch.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A080B",
+        "foreground": "#c1b4b9",
+        "cursor": "#c1b4b9"
+    },
+    "colors": {
+        "color0": "#0A080B",
+        "color1": "#483C43",
+        "color2": "#534A4C",
+        "color3": "#6C5B58",
+        "color4": "#98653A",
+        "color5": "#917267",
+        "color6": "#B38C71",
+        "color7": "#c1b4b9",
+        "color8": "#877d81",
+        "color9": "#483C43",
+        "color10": "#534A4C",
+        "color11": "#6C5B58",
+        "color12": "#98653A",
+        "color13": "#917267",
+        "color14": "#B38C71",
+        "color15": "#c1b4b9"
+    }
+}

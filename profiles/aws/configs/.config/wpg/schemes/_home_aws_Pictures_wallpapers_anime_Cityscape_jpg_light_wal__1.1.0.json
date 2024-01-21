@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/Cityscape.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f9fafb",
+        "foreground": "#161C22",
+        "cursor": "#161C22"
+    },
+    "colors": {
+        "color0": "#f9fafb",
+        "color1": "#988778",
+        "color2": "#3C6789",
+        "color3": "#58718C",
+        "color4": "#6C9EC9",
+        "color5": "#A29A9B",
+        "color6": "#B3B4C2",
+        "color7": "#161C22",
+        "color8": "#828589",
+        "color9": "#988778",
+        "color10": "#3C6789",
+        "color11": "#58718C",
+        "color12": "#6C9EC9",
+        "color13": "#A29A9B",
+        "color14": "#B3B4C2",
+        "color15": "#161C22"
+    }
+}

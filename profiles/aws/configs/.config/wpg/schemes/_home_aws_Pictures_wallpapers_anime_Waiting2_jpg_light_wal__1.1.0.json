@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/Waiting2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f9f3f0",
+        "foreground": "#0E1B26",
+        "cursor": "#0E1B26"
+    },
+    "colors": {
+        "color0": "#f9f3f0",
+        "color1": "#D28A6E",
+        "color2": "#467A84",
+        "color3": "#01B39B",
+        "color4": "#77AB9C",
+        "color5": "#06C1A7",
+        "color6": "#B79984",
+        "color7": "#0E1B26",
+        "color8": "#816a5d",
+        "color9": "#D28A6E",
+        "color10": "#467A84",
+        "color11": "#01B39B",
+        "color12": "#77AB9C",
+        "color13": "#06C1A7",
+        "color14": "#B79984",
+        "color15": "#0E1B26"
+    }
+}

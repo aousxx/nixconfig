@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/Hanabi.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fbf9f1",
+        "foreground": "#1E222A",
+        "cursor": "#1E222A"
+    },
+    "colors": {
+        "color0": "#fbf9f1",
+        "color1": "#6C5250",
+        "color2": "#666368",
+        "color3": "#B46C57",
+        "color4": "#946D64",
+        "color5": "#B78F75",
+        "color6": "#738089",
+        "color7": "#1E222A",
+        "color8": "#8c8163",
+        "color9": "#6C5250",
+        "color10": "#666368",
+        "color11": "#B46C57",
+        "color12": "#946D64",
+        "color13": "#B78F75",
+        "color14": "#738089",
+        "color15": "#1E222A"
+    }
+}

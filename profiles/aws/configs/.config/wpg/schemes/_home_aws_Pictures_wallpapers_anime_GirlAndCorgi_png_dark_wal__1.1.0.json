@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/GirlAndCorgi.png",
+    "alpha": "100",
+    "special": {
+        "background": "#161b1c",
+        "foreground": "#ebe7e5",
+        "cursor": "#ebe7e5"
+    },
+    "colors": {
+        "color0": "#161b1c",
+        "color1": "#4895B1",
+        "color2": "#A8A4A4",
+        "color3": "#CDB2AA",
+        "color4": "#CFC1BF",
+        "color5": "#DED3CB",
+        "color6": "#E4DAD6",
+        "color7": "#ebe7e5",
+        "color8": "#a4a1a0",
+        "color9": "#4895B1",
+        "color10": "#A8A4A4",
+        "color11": "#CDB2AA",
+        "color12": "#CFC1BF",
+        "color13": "#DED3CB",
+        "color14": "#E4DAD6",
+        "color15": "#ebe7e5"
+    }
+}

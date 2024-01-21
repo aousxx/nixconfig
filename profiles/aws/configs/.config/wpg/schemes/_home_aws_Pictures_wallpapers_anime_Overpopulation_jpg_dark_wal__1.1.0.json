@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/Overpopulation.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#131f22",
+        "foreground": "#e4cdc1",
+        "cursor": "#e4cdc1"
+    },
+    "colors": {
+        "color0": "#131f22",
+        "color1": "#BC7351",
+        "color2": "#917467",
+        "color3": "#A48876",
+        "color4": "#D59675",
+        "color5": "#738284",
+        "color6": "#A5958D",
+        "color7": "#e4cdc1",
+        "color8": "#9f8f87",
+        "color9": "#BC7351",
+        "color10": "#917467",
+        "color11": "#A48876",
+        "color12": "#D59675",
+        "color13": "#738284",
+        "color14": "#A5958D",
+        "color15": "#e4cdc1"
+    }
+}

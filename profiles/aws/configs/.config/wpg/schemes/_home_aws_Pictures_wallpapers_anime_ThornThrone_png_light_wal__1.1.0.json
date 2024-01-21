@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/aws/Pictures/wallpapers/anime/ThornThrone.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfcfa",
+        "foreground": "#221F1D",
+        "cursor": "#221F1D"
+    },
+    "colors": {
+        "color0": "#fdfcfa",
+        "color1": "#8E7264",
+        "color2": "#A18873",
+        "color3": "#D59F6A",
+        "color4": "#897B85",
+        "color5": "#AB9A8E",
+        "color6": "#CAB59F",
+        "color7": "#221F1D",
+        "color8": "#929085",
+        "color9": "#8E7264",
+        "color10": "#A18873",
+        "color11": "#D59F6A",
+        "color12": "#897B85",
+        "color13": "#AB9A8E",
+        "color14": "#CAB59F",
+        "color15": "#221F1D"
+    }
+}
