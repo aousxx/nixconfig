@@ -10,7 +10,7 @@
    settings =
      {
        global = {
-         username = "31fv5oda6xmd6zutsig75dtttx6i";
+         username = "aws.abdulrahman@protonmail.com";
          password = ",cqQ$9W/gCn8=2i";
        };
      };
@@ -28,10 +28,10 @@
     glib flavours 
     #wpgtk 
     ventoy-full
-    rustup nodejs_20 (pkgs.python3.withPackages (ps: with ps; [psutil pipx])) 
+    rustup nodejs_20 (pkgs.python3.withPackages (ps: with ps; [virtualenv psutil pipx])) 
     imagemagick kitty fzf  gh  git  playerctl  zsh  tldr  autojump  thefuck
     neovim
-    vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  gamescope
+    vulkan-tools  wine  protonup-qt  lutris  mangohud  gamemode  #gamescope
     zellij
 
     kitty 
