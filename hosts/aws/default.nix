@@ -1,4 +1,4 @@
-{config, inputs, lib, pkgs, modulesPath, ... }:
+{config, inputs,outputs,  lib, pkgs, modulesPath, ... }:
 
 {
   imports =
@@ -15,6 +15,10 @@
   services.devmon.enable = true;
   services.gvfs.enable = true;
   services.udisks2.enable = true;
+    systemd.tmpfiles.rules = [
+    "L+    /opt/rocm/hip   -    -    -     -    ${pkgs.rocmPackages.clr}"
+  ];
+
 
 
        # Allow unfree packages
@@ -26,7 +30,17 @@
   allowUnfree = true;
   allowBroken = true;
   };
-  nixpkgs.overlays =[ (import ../../pkgs) ];
+
+  nixpkgs.overlays = [ 
+  (import ../../pkgs) 
+  (final: _prev: {
+    unstable = import inputs.stable {
+      system = "x86_64-linux";
+    };
+  })
+  ];
+
+
   services.flatpak.enable = true;
   xdg.portal = {
      enable = true;
@@ -81,12 +95,14 @@
 
 
   #networking.networkmanager.enable = true;
-  hardware.bluetooth.enable = true;
+  hardware={ bluetooth.enable = true;
+  opengl.extraPackages = with pkgs; [rocmPackages.clr.icd];
+  pulseaudio.enable = false;
+};
   
 
 
   services.connman={enable=true; wifi.backend="wpa_supplicant";};
-  hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
   security.sudo.enable = true;
   security.sudo.configFile = '' %wheel ALL=(ALL) ALL '';
@@ -129,8 +145,8 @@
  
   nix.settings = {
       experimental-features = [ "nix-command" "flakes" ];
-      substituters = ["https://hyprland.cachix.org"];
-      trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
+      substituters = ["https://hyprland.cachix.org" "https://ai.cachix.org"];
+      trusted-public-keys = ["ai.cachix.org-1:N9dzRK+alWwoKXQlnn0H6aUx0lU/mspIoz8hMvGvbbc=" "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
   };
 
 
@@ -152,6 +168,7 @@
     description = "aws abdulrahman";
     extraGroups = ["audio" "docker" "users" "wheel" "libvirtd" ];
     packages = with pkgs; [
+      rocmPackages.rocm-runtime 
       wpgtk
     ];
   };

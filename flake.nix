@@ -11,15 +11,15 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = { self , nixpkgs, stable, home-manager, hyprland, nixos-hardware, ... }@inputs:
+  outputs = { self , nixpkgs, stable, home-manager, hyprland, nixos-hardware, ... }@inputs: 
   {
-    overlays = import ./overlays { inherit inputs; };
     nixosModules = import ./modules/nixos;
     homeManagerModules = import ./modules/home;
 
     nixosConfigurations = {
       aws = nixpkgs.lib.nixosSystem {    
         system = "x86_64-linux";
+	specialArgs = { inherit inputs ; }; # this is the important part
         modules = [ 
 	            ./hosts/aws 
 		    home-manager.nixosModules.home-manager
@@ -33,7 +33,7 @@
     };
 aws-lappy = nixpkgs.lib.nixosSystem {    
         system = "x86_64-linux";
-	specialArgs = { inherit inputs; }; # this is the important part
+	specialArgs = { inherit inputs ; }; # this is the important part
         modules = [ 
                     ./hosts/aws-lappy 
                     home-manager.nixosModules.home-manager
@@ -41,7 +41,7 @@ aws-lappy = nixpkgs.lib.nixosSystem {
                           home-manager.useGlobalPkgs = true;
                           home-manager.useUserPackages = true;
                           home-manager.users.aws = import ./profiles/aws-lappy;
-                          home-manager.extraSpecialArgs = {inherit inputs;};
+                          home-manager.extraSpecialArgs = {inherit inputs ;};
                         }
                   ];
     };
