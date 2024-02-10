@@ -1,0 +1,3 @@
+ASD=$(echo | wpctl status | grep "Audio/Sink" | cut -c 27-)
+wf-recorder --audio="$ASD"-g "$(slurp)"
+

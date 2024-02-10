@@ -11,7 +11,7 @@
 
   imports = [
    ./nixconfigs/theme
-   #./nixconfigs/nvim
+   ./nixconfigs/lf
    ./nixconfigs/zsh
  ];
 
@@ -23,6 +23,7 @@
 
   xdg.configFile = {
     yambar.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/yambar";
+  #  lf.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/lf";
     wpg.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/wpg";
     MangoHud.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/MangoHud";
     river.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/river";

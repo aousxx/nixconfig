@@ -17,10 +17,13 @@
   };
 
   home.packages = with pkgs; [
+    ueberzugpp
+    piper-tts
+    wf-recorder     slurp
 # whisper-ctranslate2
     unstable.llama-cpp ollama
     rocmPackages.rocminfo     pciutils
-
+    lf
     mpvpaper
    #ttf-icomoon-feather
     bottles
@@ -49,8 +52,6 @@
     
     #sound :
     pavucontrol  qpwgraph wireplumber  helvum
-    
-
 
     #hypr assets : 
     swayidle way-displays  polkit_gnome  cliphist wl-clipboard wtype libsForQt5.dolphin  inputs.hyprland-contrib.packages.${pkgs.system}.grimblast

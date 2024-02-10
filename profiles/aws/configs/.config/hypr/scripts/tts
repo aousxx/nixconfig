@@ -1,0 +1,1 @@
+wl-paste | xargs echo | piper --model ~/Aws/Downloads/en_us-glados-high.onnx --output-raw |   aplay -r 22050 -f S16_LE -t raw -

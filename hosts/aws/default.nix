@@ -15,9 +15,9 @@
   services.devmon.enable = true;
   services.gvfs.enable = true;
   services.udisks2.enable = true;
-    systemd.tmpfiles.rules = [
-    "L+    /opt/rocm/hip   -    -    -     -    ${pkgs.rocmPackages.clr}"
-  ];
+  #systemd.tmpfiles.rules = [
+  #  "L+    /opt/rocm/hip   -    -    -     -    ${pkgs.rocmPackages.clr}"
+  #];
 
 
 
@@ -25,6 +25,7 @@
   nixpkgs.config = {
   
   permittedInsecurePackages = [
+                "xpdf-4.04"
                 "electron-24.8.6"
   ];
   allowUnfree = true;
@@ -71,8 +72,6 @@
     pulse.enable = true;
     jack.enable = true;
   }; 
-
-
 
     programs.nix-ld.enable = true;
     programs.nix-ld.libraries = with pkgs; [
