@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wallpaperdir="$HOME/Pictures/wallpapers/anime"
+wallpaperdir="$HOME/Aws/Pictures/wallpapers/anime"
 
 files=($wallpaperdir/*)
 randompic="$wallpaperdir/$(ls $wallpaperdir | shuf -n 1)"
