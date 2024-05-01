@@ -1,5 +1,4 @@
   final: prev: { 
-  llama-cpp = prev.llama-cpp.override{rocmSupport = true; openblasSupport = false;};
     steam = prev.steam.override {
       extraPkgs = pkgs: with pkgs; [
         xorg.libXcursor

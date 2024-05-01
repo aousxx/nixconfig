@@ -18,6 +18,7 @@
   #systemd.tmpfiles.rules = [
   #  "L+    /opt/rocm/hip   -    -    -     -    ${pkgs.rocmPackages.clr}"
   #];
+  services.dnsmasq.enable= true;
 
 
 
@@ -94,14 +95,17 @@
 
 
   #networking.networkmanager.enable = true;
-  hardware={ bluetooth.enable = true;
+  hardware={
+  opentabletdriver.enable = true;
+  bluetooth.enable = true;
+  usb-modeswitch.enable= true;
   opengl.extraPackages = with pkgs; [rocmPackages.clr.icd];
   pulseaudio.enable = false;
 };
   
 
 
-  services.connman={enable=true; wifi.backend="wpa_supplicant";};
+  services.connman={enable=true;  package = pkgs.connmanFull; wifi.backend="wpa_supplicant";};
   security.rtkit.enable = true;
   security.sudo.enable = true;
   security.sudo.configFile = '' %wheel ALL=(ALL) ALL '';
@@ -119,8 +123,6 @@
                enable = true;
                };
 	}; 
-
-
 
 
 
@@ -167,12 +169,21 @@
     description = "aws abdulrahman";
     extraGroups = ["audio" "docker" "users" "wheel" "libvirtd" ];
     packages = with pkgs; [
+
       rocmPackages.rocm-runtime 
       wpgtk
     ];
   };
 
- 
+ environment.systemPackages = with pkgs; [ 
+    usb-modeswitch
+    usb-modeswitch-data
+    zsh 
+    #modemmanager
+    #modem-manager-gui
+];
+
+
  
   system.stateVersion = "23.05"; 
 

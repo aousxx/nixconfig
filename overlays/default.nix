@@ -3,6 +3,7 @@
   # This one brings our custom packages from the 'pkgs' directory
   #additions = final: _prev: import ../pkgs { pkgs = final; };
   ttf-icomoon-feather =  pkgs.callPackage ../pkgs/ttf-icomoon-feather.nix { };
+  qemu = pkgs.unstable.qemu.override { smbdSupport = true; };
   llama-cpp = pkgs.unstable.llama-cpp.override{rocmSupport = true; };
   steam = pkgs.steam.override {
       extraPkgs = pkgs: with pkgs; [

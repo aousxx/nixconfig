@@ -24,7 +24,7 @@
   xdg.configFile = {
     yambar.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/yambar";
   #  lf.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/lf";
-    wpg.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/wpg";
+  #  wpg.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/wpg";
     MangoHud.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/MangoHud";
     river.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/river";
     hypr.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/hypr";
@@ -33,9 +33,8 @@
     waybar.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/waybar";
     wofi.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/wofi";
     waydisplay.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/waydisplay";
-    beautifuldiscord.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/beautifuldiscord";
-    flavours.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/flavours";
+   # beautifuldiscord.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/beautifuldiscord";
+   # flavours.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/flavours";
     mpv.source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/mpv";
-    "discord/settings.json".source = link "${config.home.homeDirectory}/.dotfiles/profiles/aws/configs/.config/discord/settings.json";
   };
 }

@@ -55,6 +55,16 @@
             file = "p10k.zsh";
     }
     {
+            name = "vi-mode";
+            src = pkgs.fetchFromGitHub {
+        owner = "jeffreytse";
+        repo = "zsh-vi-mode";
+        rev = "v0.11.0";
+        sha256 = "sha256-xbchXJTFWeABTwq6h4KWLh+EvydDrDzcY9AQVK65RS8=";
+      };
+
+    }
+    {
       # will source zsh-autosuggestions.plugin.zsh
       name = "zsh-autosuggestions";
       src = pkgs.fetchFromGitHub {
